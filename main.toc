@@ -56,11 +56,7 @@
 \contentsline {subsection}{\numberline {6.1.1}Le Backlog du Sprint}{35}{subsection.93}
 \contentsline {section}{\numberline {6.2}Conception}{35}{section.95}
 \contentsline {subsection}{\numberline {6.2.1}Qu'est ce qu'un word2vec ?}{35}{subsection.96}
-\contentsline {subsection}{\numberline {6.2.2}Utilisation}{36}{subsection.97}
-\contentsline {chapter}{\numberline {7}Sprint 4 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction hybride}{37}{chapter.98}
-\contentsline {section}{\numberline {7.1}Sp\IeC {\'e}cification}{37}{section.99}
-\contentsline {subsection}{\numberline {7.1.1}Le Backlog du Sprint}{37}{subsection.100}
-\contentsline {section}{\numberline {7.2}Conception}{37}{section.102}
+\contentsline {subsection}{\numberline {6.2.2}Utilisation}{37}{subsection.97}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}CNN}{39}{appendix.104}
+\contentsline {chapter}{\numberline {A}CNN}{39}{appendix.99}
 \vspace {2em}

@@ -422,32 +422,13 @@ En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par
 \end{figure}
 \section{Conception}
 \subsection{Qu'est ce qu'un word2vec ?}
-Word2vec est un groupe de modèles associés utilisés pour produire des incorporations de mots. Ces modèles sont des réseaux neuronaux à deux couches, peu profonds, formés pour reconstruire les contextes linguistiques des mots. Word2vec prend en entrée un grand corpus de texte et produit un espace vectoriel, typiquement de plusieurs centaines de dimensions, avec pour chaque mot unique du corpus un vecteur correspondant dans l'espace.\\[0.5cm]
- Les vecteurs de mots sont positionnés dans l'espace vectoriel de sorte que les mots qui partagent des contextes communs dans le corpus sont situés à proximité les uns des autres dans l'espace.\\[0.2cm]
-Word2vec a été créé par une équipe de chercheurs dirigée par Tomas Mikolov chez Google. L'algorithme a ensuite été analysé et expliqué par d'autres chercheurs.  L'incorporation de vecteurs créés à l'aide de l'algorithme Word2vec présente de nombreux avantages par rapport aux algorithmes précédents tels que l'analyse sémantique latente.
+Les systèmes de traitement de l'image et du son fonctionnent avec des jeux de données riches et de grande dimension codés comme vecteurs des intensités de pixels brutes individuelles pour les données d'image, ou par exemple des coefficients de densité spectrale de puissance pour les données audio. Pour les tâches telles que la reconnaissance d'objet ou de reconnaissance vocale, nous savons que toutes les informations nécessaires à l'exécution de la tâche sont codées dans les données (car les humains peuvent effectuer ces tâches à partir des données brutes). \\[0.5cm]
+Cependant, les systèmes de traitement du langage naturel traitent traditionnellement les mots comme des symboles atomiques discrets, et par conséquent, le terme 'chat' peut être représenté par Id537 'chien' Id143. Ces codages sont arbitraires et ne fournissent aucune information utile au système concernant les relations qui peuvent exister entre les symboles individuels. Cela signifie que le modèle peut tirer parti très peu de ce qu'il a appris sur les 'chats' lorsqu'il traite des données sur les 'chiens' (tels qu'ils sont à la fois des animaux, des quadrupèdes, des animaux domestiques, etc...). Le fait de représenter les mots comme des identificateurs uniques et discrets entraîne en outre un manque de données, et signifie généralement que nous aurons besoin de plus de données pour réussir la formation de modèles statistiques. L'utilisation de représentations vectorielles peut surmonter certains de ces obstacles.\\[0.5cm]
+Les modèles d'espace vectoriel (VSM) représentent (incorporent) des mots dans un espace vectoriel continu où des mots sémantiquement similaires sont mappés à des points voisins ('sont imbriqués les uns près des autres'). Les VSM ont une histoire longue et riche en PNL, mais toutes les méthodes dépendent d'une manière ou d'une autre de l' hypothèse distributionnelle , qui stipule que les mots qui apparaissent dans les mêmes contextes partagent une signification sémantique. Les différentes approches qui tirent parti de ce principe peuvent être divisées en deux catégories: les méthodes fondées sur le nombre (par exemple, l' analyse sémantique latente ) et les méthodes prédictives (par exemple, les modèles de langage probabiliste neuronal ).\\[0.5cm]
+Word2vec est un modèle prédictif particulièrement efficace sur le plan informatique pour l'apprentissage des plongées de mots à partir de texte brut. Il se présente sous deux formes: le modèle du sac continu de mots (CBOW) et le modèle de Skip-Gram (sections 3.1 et 3.2 de Mikolov et al.). Algorithmiquement, ces modèles sont similaires, sauf que CBOW prédit les mots cibles (par exemple 'mat') à partir des mots de contexte source ('le chat s'assoit sur le'), tandis que le skip-gram fait l'inverse et prédit les mots de contexte source de la cible mots. Cette inversion peut sembler un choix arbitraire, mais statistiquement elle a pour effet que le CBOW lisse une grande partie de l'information distributive (en traitant un contexte entier comme une observation). Pour la plupart, cela s'avère être une chose utile pour les jeux de données plus petits. Cependant, skip-gram traite chaque paire contexte-cible comme une nouvelle observation, ce qui a tendance à être meilleur lorsque nous avons des ensembles de données plus volumineux.
 \subsection{Utilisation}
-Le word2vec est un réseaux neuronal, qui sert à représenter les mots par des vecteur de taille prédéfini. 
+Ce qui m'a motivé d'utiliser le word2vect est le problème de pertes données au niveau de l'entrer du 
 
 
 
-\chapter{Sprint 4 : Réalisation d’un modèle de prédiction hybride}
-\label{Chapitre 7} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
-\lhead{Chapitre 7. \emph{Sprint 4 : Réalisation d’un modèle de prédiction hybride}} % This is for the header on each page - perhaps a shortened title
-
-%----------------------------------------------------------------------------------------
-
-\section{Spécification}
-\subsection{Le Backlog du Sprint}
-\begin{figure}[H]
-\begin{tabular}{|p{7cm}|p{4cm}|p{4cm}|}
-\hline
-\textbf{Story} & \textbf{Priorité2 } & \textbf{Effort ou chargen} \\
-\hline
-En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}22\end{center}\\
-\hline
-\end{tabular}
-  \caption{Le Backlog du Sprint 4}
-  \label{fig:Backlog4}
-\end{figure}
-\section{Conception}
