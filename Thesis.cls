@@ -206,12 +206,12 @@
                 {UNIVERSITY OF EAST LONDON}}
 %-------------------------------------------------                
 \department{\texorpdfstring{\href{https://www.uel.ac.uk/schools/ace} % Your department's URL
-                {SCHOOL OF ARCHITECTURE, COMPUTING AND ENGINEERING}} % Your department's name - used in the title page and abstract
-                {School of Architecture, Computing and Engineering}}
+                {La Faculté des Sciences et Technique de Mohammedia}} % Your department's name - used in the title page and abstract
+                {La Faculté des Sciences et Technique de Mohammedia}}
 %-------------------------------------------------                
 \DEPARTMENT{\texorpdfstring{\href{https://www.uel.ac.uk/schools/ace} % Your department's URL
-                {SCHOOL OF ARCHITECTURE, COMPUTING AND ENGINEERING)}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
-                {SCHOOL OF ARCHITECTURE, COMPUTING AND ENGINEERING}}
+                {La Faculté des Sciences et Technique de Mohammedia)}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
+                {La Faculté des Sciences et Technique de Mohammedia}}
 %-------------------------------------------------                
 \group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
                 {Research Group Name}} % Your research group's name - this is currently used in the title page 
