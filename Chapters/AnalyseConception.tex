@@ -8,7 +8,7 @@
 
 \section{Le Backlog du Produit}
 Le backlog du produit est la liste des fonctionnalités attendues d'un produit. Plus exactement, au-delà de cet aspect fonctionnel, il contient tous les éléments qui vont nécessiter du travail pour l'équipe. Les éléments y sont classés par priorité ce qui permet de définir l'ordre de réalisation.\\[0.5cm]
-Le backlog est élaboré avant le lancement des sprints, dans la phase de préparation (ou sprint 0). Il est utilisé pour planifier la release, puis à chaque sprint, lors de la réunion de planification du sprint pour décider du sous-ensemble qui sera réalisé.\\[0.2cm]
+Comme il est mentionné sur la figure 2.1, le backlog est élaboré avant le lancement des sprints, dans la phase de préparation (ou sprint 0). Il est utilisé pour planifier la release, puis à chaque sprint, lors de la réunion de planification du sprint pour décider du sous-ensemble qui sera réalisé.\\[0.2cm]
 C'est donc un outil essentiel pour la planification. Mais il est aussi, par sa nature, un maillon de la gestion des exigences, puisqu'on y collecte ce que doit faire le produit.\\[0.2cm]
 A tout moment, le backlog est visible par tout le monde.
 \begin{figure}[h]
@@ -27,7 +27,7 @@ En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par
   \label{fig:Backlog}
 \end{figure}
 \subsection{La méthode de priorisation}
-Pour prioriser le besoin, on a utilisé la méthode  \textbf{MoSCow} ; elle est une technique visant à prioriser des besoins ou des exigences en matière d'assistance à maîtrise d'ouvrage et de développement logiciel. L'objectif est que le maître d'œuvre et le maître d'ouvrage s'accordent sur l'importance des tâches à réaliser par rapport aux délais prévus.\\[0.2cm]
+Pour prioriser le besoin, on a utilisé la méthode  \textbf{MoSCow} ; c'est une technique visant à prioriser des besoins ou des exigences en matière d'assistance à maîtrise d'ouvrage et de développement logiciel. L'objectif est que le maître d'œuvre et le maître d'ouvrage s'accordent sur l'importance des tâches à réaliser par rapport aux délais prévus.\\[0.2cm]
 Les lettres majuscules de l'acronyme MoSCoW signifient (en anglais):\\[0.2cm]
 \begin{description}
 \item[M] must have this, c'est-à-dire 'doit être fait' (vital).
@@ -48,10 +48,9 @@ Les lettres majuscules de l'acronyme MoSCoW signifient (en anglais):\\[0.2cm]
 
 %----------------------------------------------------------------------------------------
 
-\section{Spécification}
-\subsection{Le Backlog du Sprint}
+\section{Le Backlog du Sprint}
 
-
+Sur la figure 3.1, nous présentons la backlog du sprint 0.
 \begin{figure}[H]
 \begin{tabular}{|p{7cm}|p{4cm}|p{4cm}|}
 \hline
@@ -86,38 +85,38 @@ Comme on peut voir dans le digramme de la figure \textbf{FIG.3.3} , on a cinq cl
 \end{figure}
 
 La classe \textbf{ApiAtacker},c'est la classe responsable de l'acquisition des données depuis les différentes sources qu'on a, tels que : youtube, hesspress ...\\[0.2cm]
-La classe News représente une nouveauté dans notre système, et chaque nouveauté est lié par une et une seul catégorie.\\[0.2cm]
-Ici, la classe Model joue le rôle du classificateur, elle est celle qui transforme une nouveauté non étiqueté en une qui est qui est  étiqueté.\\[0.2cm]
-Par ces différentes méthode, la classe User représente un client dans notre système, il décrit toutes ses actions possible.
+La classe News représente une nouveauté dans notre système, et chaque nouveauté est liée par une et une seul catégorie.\\[0.2cm]
+Ici, la classe Model joue le rôle du classificateur, elle est celle qui transforme une nouveauté non étiquetée en une qui est  étiquetée.\\[0.2cm]
+Par ces différentes méthodes, la classe User représente un client dans notre système, il décrit toutes ses actions possible.
 
 \subsection{Diagramme de séquence}
-Comme vous pouvez constater dans le diagramme de la figure \textbf{FIG.3.4}, nous avons quatre ligne de vie dont le  Client, l'Application front-end, l'Application back-end,et le  Model tensorFlow.
+Comme nous pouvant constater dans le diagramme de la figure \textbf{FIG.3.4}, nous avons quatre ligne de vie dont le  Client, l'Application front-end, l'Application back-end,et le  Model tensorFlow.
 \begin{figure}[H]
 	\includegraphics[scale=0.70]{Images/Sequence_Diagram_Sanadtech.png}
 	\caption{Diagramme de séquence}
 	\label{fig:sequence}
 \end{figure}
-L'activité de l'application au point de vue client commence, qu'on un utilisateur installe l'app dans son téléphone, il pourra ensuite recevoir les notifications des nouveautés les plus important.\\[0.2cm]
+L'activité de l'application au point de vue client commence, qu'on un utilisateur installe l'app dans son téléphone, il pourra ensuite recevoir les notifications des nouveautés les plus importantes.\\[0.2cm]
 Quand un utilisateur consulte les nouveautés , le front-end envoi une requête au back-end, et ce dernier lui envoi tout les news par ordre de date.\\[0.2cm]
-Si une news viens juste d'être intercepter par le back-end, elle envoi alors, une requête au modèle Tensorflow pour savoir de quelle catégorie cette news appartiens. Et puis après, le back-end l'enregistre avec ça nouvelle classe ou catégorie.\\[0.4cm]
-Si une nouveauté est jugé comme importante, elle sera envoyer vers toutes les utilisateurs sous la forme d'une notifications, depuis le back-end.\\[0.2cm]
+Si une news viens juste d'être intercepter par le back-end, elle envoie alors, une requête au modèle Tensorflow pour savoir à quelle catégorie cette news appartient. Et puis après, le back-end l'enregistre avec sa nouvelle classe ou catégorie.\\[0.4cm]
+Si une nouveauté est jugée comme importante, elle sera envoyée vers toutes les utilisateurs sous la forme d'une notifications, depuis le back-end.\\[0.2cm]
 
 \subsection{Diagramme de déploiement}
-Le diagramme de la figure \textbf{FIG.3.5} contient 4 nœuds principales, on site : front-end server, back-end server, database server , Model tensorflow server.
+Le diagramme de la figure \textbf{FIG.3.5} contient 4 nœuds principaux, on site : front-end server, back-end server, database server , Model tensorflow server.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{Images/Deployment_Diagram_Sanadtech.png}
 	\caption{Diagramme de déploiement}
 	\label{fig:deployment}
 \end{figure}
-Front-end server , c'est ou l'application finale est déployé, d'ici les utilisateurs peuvent la télécharger, depuis les différentes Stores, comme google play, apple store ...,ou la consulter dans le cas d'un navigateur.\\[0.2cm]
-Back-end server, c'est ou le apiAtacker est situé , l'application envoi des requêtes vers ce nœud pour avoir les news.\\[0.2cm]
+Front-end server , c'est où l'application finale est déployée, d'ici les utilisateurs peuvent la télécharger, depuis les différentes Stores, comme google play, apple store ...,ou la consulter dans le cas d'un navigateur.\\[0.2cm]
+Back-end server, c'est où le apiAtacker est situé , l'application envoie des requêtes vers ce nœud pour avoir les news.\\[0.2cm]
 Database server, ici on stocke nos données , on utilise la base de donnée de google Big Table.\\[0.2cm]
-Model Tensorflow Server, c'est ou notre model de prédiction est stocké , le modèle est écrit par tensorflow et déployer dans le service google ML-engine.
+Model Tensorflow Server, c'est où notre modèle de prédiction est stocké , le modèle est écrit par tensorflow et déployé dans le service google ML-engine.
 
 
 
 \section{NLP : Natural Language Processing}
-Le modèle de classification qu'on va réaliser entre  dans la catégorie de la NLP, avant de le définir et l'expliquer, il faut d'abord rappeler qu'est ce que le machine learning et le deep learning.
+Le modèle de classification qu'on va réaliser entre  dans la catégorie de la NLP, avant de le définir et l'expliquer, il faut d'abord rappeler qu'est ce que la machine learning et le deep learning.
 \subsection{Machine learning}
 L'apprentissage automatique (en anglais machine learning, littéralement « l'apprentissage machine ») ou apprentissage statistique, champ d'étude de l'intelligence artificielle, concerne la conception, l'analyse, le développement et l'implémentation de méthodes permettant à une machine (au sens large) d'évoluer par un processus systématique, et ainsi de remplir des tâches difficiles ou problématiques par des moyens algorithmiques plus classiques.\\[0.5cm]
 L'analyse peut concerner des graphes, arbres, ou courbes (par exemple, la courbe d'évolution temporelle d'une mesure ; on parle alors de données continues, par opposition aux données discrètes associées à des attributs-valeurs classiques) au même titre que de simples nombres. Voir l'article Inférence bayésienne.\\[0.5cm]
@@ -125,7 +124,7 @@ Les algorithmes utilisés permettent, dans une certaine mesure, à un système p
 La difficulté réside dans le fait que l'ensemble de tous les comportements possibles compte tenu de toutes les entrées possibles devient rapidement trop complexe à décrire (on parle d'explosion combinatoire). On confie donc à des programmes le soin d'ajuster un modèle pour simplifier cette complexité et de l'utiliser de manière opérationnelle. Idéalement, l'apprentissage visera à être non supervisé, c'est-à-dire que la nature des données d'entrainement n'est pas connue.\\[0.5cm]
 Ces programmes, selon leur degré de perfectionnement, intègrent éventuellement des capacités de traitement probabiliste des données, d'analyse de données issues de capteurs, de reconnaissance (reconnaissance vocale, reconnaissance de forme, d'écriture…), de data-mining, d'informatique théorique…
 \subsection{Deep Learning}
-L'apprentissage profond1 (en anglais deep learning, deep structured learning, hierarchical learning) est un ensemble de méthodes d'apprentissage automatique tentant de modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires[réf. souhaitée]. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFA (Google, Apple, Facebook, Amazon).\\[0.5cm]
+L'apprentissage profond1 (en anglais deep learning, deep structured learning, hierarchical learning) est un ensemble de méthodes d'apprentissage automatique tentant à modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires[réf. souhaitée]. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFA (Google, Apple, Facebook, Amazon).\\[0.5cm]
 Les recherches dans ce domaine s’efforcent de construire de meilleures représentations du réel et de créer des modèles capables d’apprendre ces représentations à partir de données non labellisées à grande échelle. Certaines de ces représentations s’inspirent des dernières avancées en neuroscience. Il s'agit, grosso modo, d'interprétations du traitement de l’information et des modèles de communication du système nerveux, à l'image de la façon dont le système nerveux établit des connexions en fonction des messages reçus, de la réponse neuronale et du poids des connexions entre les neurones du cerveau.\\
 Les différentes architectures de « deep learning » telles que les « deep neural networks », les « convolutional deep neural networks », et les « deep belief network » ont plusieurs champs d’application :
 \begin{itemize}
@@ -145,16 +144,16 @@ Le TALN est sorti des laboratoires de recherche pour être progressivement mis e
 \section{Préparation des données}	
 Dans un projet de machine learning, il est important de bien encadrer les données, parce que en sens large, il constitue l'enjeu majeur. Pour ce fait, on a suivi ces principaux étapes :
 \subsection{Identification des sources de données}
-Les données qu'on traite sont des données de type chaine de caractère qui comporte deux champs, le première champs et celui de la catégorie ou la classe, et le deuxième champs et celui de la description ou le titre de la vidéo.
+Les données qu'on traite sont des données de type chaine de caractère qui comporte deux champs, le premier champs est celui de la catégorie ou la classe, et le deuxième champs est celui de la description ou le titre de la vidéo.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{Images/donnees_contenu.png}
 	\caption{Exemple de données}
 	\label{fig:donnees}
 \end{figure}	
-Le format des données actuellement, avec lequelle on va faire l'entrainement et les testes, sont en format \textbf{CSV}, l'avantage de ce format c'est qu'il est facilement manipulable par le langage de programmation python même si la taille de données peut être grande.\\[0.2cm]
-On récupère ses données là depuis plusieurs source, et après on extrait les données juger utiles pour les prédiction, dans ce cas les description des vidéo.
+Le format des données actuellement, avec lequelle on va faire l'entrainement et les tests, sont en format \textbf{CSV}, l'avantage de ce format c'est qu'il est facilement manipulable par le langage de programmation python même si la taille de données peut être grande.\\[0.2cm]
+On récupère ces données là depuis plusieurs sources, et après on extrait les données jugées utiles pour les prédictions, dans ce cas, les descriptions des vidéo.
 \subsection{Définition du lieu d'entreposage}
-Les données transformé doivent etre stockés, pour le fait de ne pas les predire une deuxieme fois, on utilise dans notre projet la base données google, Big Table, il  est un système de gestion de base de données compressées, haute performance, et propriétaire, C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.\\
+Les données transformées doivent être stockées, pour le fait de ne pas les prédire une deuxième fois, on utilise dans notre projet la base données google, Big Table, c'est un système de gestion de base de données compressées, haute performance, et propriétaire. C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.\\
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[width=100mm,scale=0.5]{Images/google-cloud-bigtable.png}
@@ -174,20 +173,27 @@ Les données de qualité sont une condition préalable à la qualité des modèl
 \subsection{Features generation}
 C'est un processus consistant à prendre des données brutes non structurées et à définir des caractéristiques (c'est-à-dire des variables) pour une utilisation potentielle dans l'analyse statistique.\\
  Par exemple, dans le cas de l'exploration de texte \textit{(notre cas)}, on a  commencé avec un journal brut de milliers de descriptions \textit{(celles des vidéos)} et générer des fonctionnalités en supprimant des mots de faible valeur. des blocs de mots \textit{(n-grammes)} ou en appliquant d'autres règles.\\[0.5cm]
-pour notre cas, on prend le corpus de données et on fait une relation symétrique entre les données de types chaine de caractère,et des entiers unique, qu'on le store par la suite dans un dictionnaire de données.
+pour notre cas, on prend le corpus de données et on fait une relation symétrique entre les données de types chaine de caractère,et des entiers unique, qu'on le stocke par la suite dans un dictionnaire de données.
 \subsection{Feature extration}
-Une fois les fonctionnalités générées, il est souvent nécessaire de tester les transformations des entités d'origine et de sélectionner un sous-ensemble de ce groupe de caractéristiques potentielles originales et dérivées à utiliser dans notre modèle (extraction et sélection de caractéristiques).\\[0.2cm]
+Une fois les fonctionnalités générées, il est souvent nécessaire de tester les transformations des entités d'origine et de sélectionner un sous-ensemble de données de caractéristiques potentielles originales et dérivées à utiliser dans notre modèle (extraction et sélection de caractéristiques).\\[0.2cm]
 Tester des valeurs dérivées est une étape courante car les données peuvent contenir des informations importantes qui ont un modèle ou une relation non linéaire avec notre résultat, ainsi l'importance de l'élément de données peut seulement apparaître dans son état transformé (par exemple des dérivés d'ordre supérieur).\\[0.2cm]
  L'utilisation d'un trop grand nombre de caractéristiques peut entraîner une colinéarité multiple ou confondre des modèles statistiques, alors qu'extraire le nombre minimum de caractéristiques correspondant au but de votre analyse suit le principe de la parcimonie.\\[0.2cm]
-\\On a divisé les données generées en deux parties, les données de d'entrainement qu'on lui a attribué 60\% des données du corpus, et les données de test qui formes un pourcentage de 40\%. 
+\\On a divisé les données generées en deux parties, les données d'entrainement qu'on lui a attribué 60\% des données du corpus, et les données de test qui formes un pourcentage de 40\%. 
+
+
+
+
+
+
+
 \chapter{Sprint 1 : Réalisation d’un modèle de prédiction avec l’algorithme CNN}
 \label{Chapitre 4} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 \lhead{Chapitre 4. \emph{Sprint 1 : Réalisation d’un modèle de prédiction avec l’algorithme CNN}} % This is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
-\section{Spécification}
-\subsection{Le Backlog du Sprint}
+\section{Le Backlog du Sprint 1}
+La figure 4.1 décrit le baclog du sprint numéro 1.
 \begin{figure}[H]
 \begin{tabular}{|p{7cm}|p{4cm}|p{4cm}|}
 \hline
@@ -206,11 +212,9 @@ En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par
 \subsection{Qu'est ce qu'un CNN/RNN ?}
 \textbf{Réseau de neurones convolutifs}\\[0.5cm]
 En apprentissage automatique, un réseau de neurones convolutifs ou réseau de neurones à convolution (en anglais CNN ou ConvNet pour Convolutional Neural Networks) est un type de réseau de neurones artificiels acycliques (feed-forward), dans lequel le motif de connexion entre les neurones est inspiré par le cortex visuel des animaux. Les neurones de cette région du cerveau sont arrangés de sorte qu'ils correspondent à des régions qui se chevauchent lors du pavage du champ visuelle.\\[0.2cm]
- Leur fonctionnement est inspiré par les processus biologiques, ils consistent en un empilage multicouche de perceptrons, dont le but est de pré-traiter de petites quantités d'informations. Les réseaux neuronaux convolutifs ont de larges applications dans la reconnaissance d'image et vidéo, les systèmes de recommandation et le traitement du langage naturel.\\[1cm]
-
+ Leur fonctionnement est inspiré par les processus biologiques, ils consistent en un empilage multicouche de perceptrons, dont le but est de pré-traiter de petites quantités d'informations. Les réseaux neuronaux convolutifs ont de larges applications dans la reconnaissance d'image et vidéo, les systèmes de recommandation et le traitement du langage naturel.\\[0.5cm]
  \textbf{Réseau de neurones récurrents}\\[0.5cm]
- 
- Un réseau de neurones récurrents est un réseau de neurones artificiels présentant des connexions récurrentes. Un réseau de neurones récurrents est constitué d'unités (neurones) inter-connectés interagissant non-linéairement et pour lequel il existe au moins un cycle dans la structure. Les unités sont reliées par des arcs (synapses) qui possèdent un poids. La sortie d'un neurone est une combinaison non linéaire de ses entrées.\\[0.2cm]
+ Un réseau de neurones récurrents est un réseau de neurones artificiels présentant des connexions récurrentes. Un réseau de neurones récurrents est constitué d'unités (neurones) inter-connectés interagissant non-linéairement et pour lequel il existe au moins un cycle dans la structure. Les unités sont reliées par des arcs (synapses) qui possèdent un poids. La sortie d'un neurone est une combinaison non linéaire de ces entrées.\\[0.2cm]
 Les réseaux de neurones récurrents sont adaptés pour des données d'entrée de taille variable. Ils conviennent en particulier pour l'analyse de séries temporelles. Ils sont utilisés en reconnaissance automatique de la parole ou de l'écriture manuscrite - plus en général en reconnaissance de formes - ou encore en traduction automatique. « Dépliés », ils sont comparables à des réseaux de neurones classiques avec des contraintes d'égalité entre les poids du réseau (voir schéma ci-dessous).
 
 \begin{figure}[H]
@@ -229,11 +233,11 @@ Le réseaux neuronal qu'on a adopté est comme suite :
 	\begin{center}
 	\includegraphics[width=\linewidth]{Images/cnn.png}
 	\end{center}
-	\caption{La structure du reseaux neuronal ,réaliser par cnn.}
+	\caption{La structure du réseaux neuronal ,réalisée par cnn.}
 	\label{fig:cnn1}
 \end{figure}
 
-Les premières couches incorpore des mots dans des vecteurs de basse dimension. La couche suivante effectue des convolutions sur les vecteurs de mots incorporés, en utilisant des tailles de filtres multiples.\\[0.2cm]
+Les premières couches incorporent des mots dans des vecteurs de basse dimension. La couche suivante effectue des convolutions sur les vecteurs de mots incorporés, en utilisant des tailles de filtres multiples.\\[0.2cm]
 
 \begin{figure}[H]
 	\begin{center}
@@ -242,14 +246,14 @@ Les premières couches incorpore des mots dans des vecteurs de basse dimension. 
 	\caption{La structure du réseaux neuronal, structure des couches de convolutions.}
 	\label{fig:cnn1}
 \end{figure}
- Par exemple, glisser sur 3, 4 ou 5 mots à la fois. Ensuite, nous max-poolons le résultat de la couche convolutionnelle dans un long vecteur de caractéristiques,et on ajoute une régularisation de décrochage, et en fin on  classe le résultat en utilisant une couche softmax.\\[0.5cm]
+ Par exemple, glisser sur 3, 4 ou 5 mots à la fois. Ensuite, nous (max-poolons) le résultat de la couche convolutionnelle dans un long vecteur de caractéristiques,et on ajoute une régularisation de décrochage, et enfin on  classe le résultat en utilisant une couche softmax.\\[0.5cm]
  
-Puisque on ne peut pas traiter les chaînes de caractères dans un réseaux neuronal, on doit transformer ces données là, en des données numérique, c’est pour cela, j’ai utilisé une transformation classique « Embeding» qui mappe chaque mot qui existe dans mon dictionnaire de mot ,en des numéro significatif.\\[0.2cm]
+Puisque on ne peut pas traiter les chaînes de caractères dans un réseau neuronal, on doit transformer ces données là, en des données numériques, c’est pour cela, j’ai utilisé une transformation classique « Embeding» qui mappe chaque mot qui existe dans mon dictionnaire de mot ,en des numéros significatifs.\\[0.2cm]
 Pour bien comprendre le déroulement ,et le processus de fonctionnement de ce réseaux neuronal , voici une figure descriptive :
 
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[width=\linewidth]{Images/cnn1.png}
+	\includegraphics[width=\linewidth]{Images/cnn2.png}
 	\end{center}
 	\caption{Architecture des couches du réseaux neuronal.}
 	\label{fig:cnn2}
@@ -257,10 +261,10 @@ Pour bien comprendre le déroulement ,et le processus de fonctionnement de ce r�
 
 Ici, \textbf{W} est notre matrice de filtre et h est le résultat de l'application de la non-linéarité à la sortie de la convolution. Chaque filtre glisse sur l'ensemble de l'incorporation, mais varie en nombre de mots. Le remplissage \textit{VALIDE} signifie que nous glissons le filtre sur notre phrase sans capitonner les bords, en effectuant une convolution étroite qui nous donne une sortie de forme $ [1, sequenceLengthFilterSize+1, 1, 1] $.\\[0.2cm]
  L'exécution de \textbf{max-pooling} sur la sortie d'une taille de filtre spécifique nous laisse avec un tenseur de forme $ [batchSize, 1, 1, numFilters] $. C'est essentiellement un vecteur de caractéristiques, où la dernière dimension correspond à nos caractéristiques.\\[0.2cm]
-Une fois que nous avons tous les tenseurs de sortie regroupés de chaque taille de filtre, nous les combinons en un long vecteur de forme de forme $ [tailleBatch, numFiltersTotal] $. \\[0.2cm]
-L'utilisation de -1 dans tf.reshape indique à TensorFlow d'aplatir la cote lorsque cela est possible.\\[0.2cm]
+Une fois que nous avons tous les tenseurs de sortie regroupés de chaque taille de filtre, nous les combinons en un long vecteur  de forme $ [tailleBatch, numFiltersTotal] $. \\[0.2cm]
+L'utilisation de -1 dans tf.reshape indique à TensorFlow d'aplatir la côte lorsque cela est possible.\\[0.2cm]
 
-Pour régulariser notre CNN, j’ai utilisé une couche \textbf{Dropout} ,l'idée derrière  est simple. Une couche de décrochement stochastique \textbf{désactive} une fraction de ses neurones. Cela empêche les neurones de co-adapter, et les oblige à apprendre des fonctionnalités utiles individuellement.\\[0.2cm]
+Pour régulariser notre CNN, j’ai utilisé une couche \textbf{Dropout} ,l'idée derrière  est simple. Une couche de décrochement stochastique \textbf{désactive} une fraction de ces neurones. Cela empêche les neurones de co-adapter, et les oblige à apprendre des fonctionnalités utiles individuellement.\\[0.2cm]
  La fraction de neurones que nous gardons activée est définie sur notre réseau. Nous avons réglé ceci à quelque chose comme \textit{0.5} pendant l'entraînement, et à \textit{1} (désactiver la couche) pendant l'évaluation.\\[0.2cm]
  
  En utilisant le vecteur de caractéristiques de \textbf{max-pooling} (avec \textbf{dropout} appliqué), nous pouvons générer des prédictions en faisant une multiplication matricielle et en choisissant la classe ayant le score le plus élevé. Nous pourrions également appliquer une fonction \textbf{softmax} pour convertir les scores bruts en probabilités normalisées, mais cela ne changerait pas nos prédictions finales.\\[0.2cm]
