@@ -1,6 +1,7 @@
 \contentsline {chapter}{Contents}{iv}{dummy.4}
-\contentsline {chapter}{List of Figures}{vi}{dummy.6}
-\contentsline {chapter}{Abbreviations}{vii}{dummy.8}
+\contentsline {chapter}{Liste des figures}{vi}{dummy.6}
+\contentsline {chapter}{Abbr\IeC {\'e}viations}{vii}{dummy.8}
+\contentsline {chapter}{Introduction}{1}{chapter*.11}
 \contentsline {chapter}{\numberline {1}Contexte g\IeC {\'e}n\IeC {\'e}rale du Projet}{2}{chapter.12}
 \contentsline {section}{\numberline {1.1}Pr\IeC {\'e}sentation de l\IeC {\textquoteright }organisme d\IeC {\textquoteright }accueil}{2}{section.13}
 \contentsline {subsection}{\numberline {1.1.1}SanadTech}{2}{subsection.14}
@@ -55,6 +56,6 @@
 \contentsline {section}{\numberline {6.2}Conception}{36}{section.91}
 \contentsline {subsection}{\numberline {6.2.1}Qu'est ce qu'un word2vec ?}{36}{subsection.92}
 \contentsline {subsection}{\numberline {6.2.2}Utilisation}{38}{subsection.93}
+\contentsline {chapter}{Conclusion \& Perspective}{39}{chapter*.95}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}CNN}{40}{appendix.96}
 \vspace {2em}

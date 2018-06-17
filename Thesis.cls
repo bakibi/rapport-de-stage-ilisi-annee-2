@@ -340,8 +340,8 @@
 }\end{spacing}
 }
 \renewcommand\listoffigures{
-\btypeout{List of Figures}
-\addtotoc{List of Figures}
+\btypeout{Liste des figures}
+\addtotoc{Liste des figures}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
@@ -375,7 +375,7 @@
     \cleardoublepage
 }\end{spacing}
 }
-\newcommand\listsymbolname{Abbreviations}
+\newcommand\listsymbolname{Abbréviations}
 \usepackage{longtable}
 \newcommand\listofsymbols[2]{
 \btypeout{\listsymbolname}
