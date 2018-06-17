@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  17 JUN 2018 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  17 JUN 2018 23:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -2252,9 +2252,9 @@ Chapitre 1.
  1 Contexte g\IeC {\'e}n\IeC {\'e}rale du Projet
 ------------------------------------------------------------------------------
 
-Overfull \hbox (12.61914pt too wide) in paragraph at lines 14--18
+Overfull \hbox (11.34286pt too wide) in paragraph at lines 14--18
 \OT1/cmr/m/n/10.95 RunMyProcess aide les or-ga-ni-sa-tions a trans-for-mer leu
-r ap-proches de tra-vail gr^ace a des experiences
+r ap-proche de tra-vail, gr^ace a des experiences
  []
 
 [3
@@ -2272,9 +2272,15 @@ t imperativement mai-tri-ser SCRUM.
  []
 
 
-Overfull \hbox (4.47597pt too wide) in paragraph at lines 113--114
-\OT1/cmr/m/n/10.95 d'implementer les differents be-soins du client. Bien evi
-demment, cette equipe sera constituee
+Overfull \hbox (53.11758pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/10.95 constitue de per-sonnes qui se-ront chargees d'implemen
+ter
+ []
+
+
+Overfull \hbox (18.58931pt too wide) in paragraph at lines 113--114
+\OT1/cmr/m/n/10.95 les differents be-soins du client. Bien evidemment, cette 
+equipe sera constituee des developpeurs,
  []
 
 [8]
@@ -2283,7 +2289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 151--151
+Underfull \hbox (badness 1715) in paragraph at lines 158--158
 \OT1/cmr/m/n/10.95 hy-bride qui re-groupe CNN avec
  []
 
@@ -2594,7 +2600,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' (voir le source, ligne 346).
 Here is how much of TeX's memory you used:
  37490 strings out of 493305
  689962 string characters out of 3128932
- 729158 words of memory out of 3000000
+ 730158 words of memory out of 3000000
  40340 multiletter control sequences out of 15000+200000
  543805 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2613,7 +2619,7 @@ grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Souhail/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/U
 sers/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/latx
 font/lasy10.pfb>
-Output written on main.pdf (48 pages, 1657345 bytes).
+Output written on main.pdf (48 pages, 1657575 bytes).
 PDF statistics:
  676 PDF objects out of 1000 (max. 8388607)
  144 named destinations out of 1000 (max. 500000)
