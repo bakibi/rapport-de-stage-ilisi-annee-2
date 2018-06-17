@@ -20,7 +20,7 @@ En tant qu'utilisateur, je souhaite pouvoir voir les news dans une fil d'actuali
 \hline
 En tant qu'utilisateur, je souhaite pouvoir ajouter un contenu au favoris pour que je puisse le visualiser plus tard. & \begin{center}C\end{center} & \begin{center}11\end{center}\\
 \hline
-En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}60\end{center}\\
+En tant qu'utilisateur, je souhaite pouvoir visiter les différents contenus par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}60\end{center}\\
 \hline
 \end{tabular}
   \caption{Le Backlog du Produit}
@@ -199,7 +199,7 @@ La figure 4.1 décrit le baclog du sprint numéro 1.
 \hline
 \textbf{Story} & \textbf{Priorité2 } & \textbf{Effort ou chargen} \\
 \hline
-En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}22\end{center}\\
+En tant qu'utilisateur, je souhaite pouvoir visiter les différents contenus par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}22\end{center}\\
 \hline
 \end{tabular}
   \caption{Le Backlog du Sprint 1}
@@ -301,20 +301,23 @@ Enfin le graphe final résultant ressemble à ça :
 
 
 
+
+
+
 \chapter{Sprint 2 : Réalisation d’un modèle de prédiction avec l’algorithme SVM}
 \label{Chapitre 5} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 \lhead{Chapitre 5. \emph{Sprint 2 : Réalisation d’un modèle de prédiction avec l’algorithme SVM}} % This is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
-\section{Spécification}
-\subsection{Le Backlog du Sprint}
+\section{Le Backlog du Sprint 2}
+Dans la figure 5.1, on décrit le backlog du sprint numéro 2.
 \begin{figure}[H]
 \begin{tabular}{|p{7cm}|p{4cm}|p{4cm}|}
 \hline
 \textbf{Story} & \textbf{Priorité2 } & \textbf{Effort ou chargen} \\
 \hline
-En tant qu'utilisateur, je souhaite pouvoir visiter les différentes contenu par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}22\end{center}\\
+En tant qu'utilisateur, je souhaite pouvoir visiter les différents contenus par catégories,et de les sélectionner selon mon besoin. & \begin{center}M\end{center} & \begin{center}22\end{center}\\
 \hline
 \end{tabular}
   \caption{Le Backlog du Sprint 2}
@@ -332,15 +335,16 @@ Les séparateurs à vaste marge ont été développés dans les années 1990 à 
 	\label{fig:svm0}
 \end{figure}
 Les SVM ont été appliqués à de très nombreux domaines (bio-informatique, recherche d'information, vision par ordinateur, finance…). Selon les données, la performance des machines à vecteurs de support est de même ordre, ou même supérieure, à celle d'un réseau de neurones ou d'un modèle de mélanges gaussiens.\\[1cm]
-Les machines à vecteurs de support sont basées sur le principe de la structure de minimisation de risque, dans la théorie de l'apprentissage aléatoire.L'idée de la structure de minimisation de risque est de trouver une hypothèse \textbf{\textit{h}} avec laquelle on peut garantir, d'avoir le plus petit cout d'erreur. \\La vrai erreur de \textbf{\textit{h}}, c'est la probabilité que \textbf{\textit{h}} va faire une erreur en une données non traiter,et choisit aléatoirement. Un extremum haut, peut être utiliser, pour connecter, la vrai erreur de \textbf{\textit{h}}, avec l'erreur de \textbf{\textit{h}} et avec les données de  l'entrainement, est une complexité \textbf{\textit{H}} (mesurer par VC-Dimension), l'hypothèse \textbf{\textit{h}}, laquelle approximativement, minimise l'extremum pour la vrai valeur de \textbf{\textit{h}} en controllant the VC-Dimension de \textbf{\textit{H}}. \\[0.2cm]
-Les SVMs, sont des apprentis universelles. Dans leur frome de base, ils apprennent par  des fonctions seuil linéaire. Sauf que par une utilisation des fonction de kernel à la place des variables unitaires, ils peuvent être utiliser pour un apprentissage polynomiale, et produire de classificateurs polynomiale.\\[0.2cm]
+Les machines à vecteurs de support sont basées sur le principe de la structure de minimisation de risque, dans la théorie de l'apprentissage aléatoire.L'idée de la structure de minimisation de risque est de trouver une hypothèse \textbf{\textit{h}} avec laquelle on peut garantir, d'avoir le plus petit cout d'erreur. \\
+La vrai erreur de \textbf{\textit{h}}, c'est la probabilité que \textbf{\textit{h}} va faire une erreur en une donnée non traitée,et choisie aléatoirement. Un extremum haut, peut être utilisé, pour connecter, la vrai erreur de \textbf{\textit{h}}, avec l'erreur de \textbf{\textit{h}} et avec les données de  l'entrainement, est une complexité \textbf{\textit{H}} (mesurer par VC-Dimension), l'hypothèse \textbf{\textit{h}}, laquelle approximativement, minimise l'extremum pour la vrai valeur de \textbf{\textit{h}} en controllant the VC-Dimension de \textbf{\textit{H}}. \\[0.2cm]
+Les SVMs, sont des apprentis universels. Dans leur forme de base, ils apprennent par  des fonctions seuil linéaires. Sauf que par une utilisation des fonction de kernel à la place des variables unitaires, ils peuvent être utilisées pour un apprentissage polynomiale, et produire de classificateurs polynomiale.\\[0.2cm]
 Autre chose qui est magnifique chez le SVM,c'est que son pouvoir d'apprentissage est indépendante du dimension de l'espace du features, il mesure la complexité de l'hypothèse basé sur la marge qui sépare les données, non le nombre des features. Ceci signifie qu'on peut généraliser, si notre données est séparable avec une grande fonction de marge, même en présence de plusieurs features.\\[0.2cm]
 La marge suggère aussi d'avoir une heuristique pour sélectionner des valeurs exactes de traitement pour l'apprenti (comme le kernel avec le réseaux RBF). le meilleurs paramétrage, est celui qui produit l'hypothèse avec le plus petit VC-Dimension. Ceci permet d'automatiser les paramètres sans une perte de la cross-valisation.
 \subsection{implémentation et optimisation}
 
 
-On utilise le SVM dans les problèmes de classification binaires, or dans notre cas on 7 catégories.
-Pour ce fait , il y a deux approche pour remédier à cette problématique :\\[1cm]
+On utilise le SVM dans les problèmes de classification binaires, or dans notre cas on a 7 catégories.
+Pour ce fait , il y a deux approches pour remédier à cette problématique :\\[1cm]
 \textbf{Un contre tout le monde}\\[1cm]
 Dans cette approche, on construit \textit{k} classificateurs  binaires séparés
 pour la classification k-class. Le classificateur binaire m-th est formé en utilisant les données de
@@ -359,10 +363,9 @@ Un exemple de test est libellé pour la classe avec le plus de votes. La taille 
 symétrique. Platt et al. a amélioré l'approche un-contre-un et proposé
 une méthode appelée SVM Directed Acyclic Graph SVM (DAGSVM) qui forme un arbre
 structure pour faciliter la phase de test. En conséquence, il ne faut que k - 1 individu
-évaluations pour décider de l'étiquette d'un exemple de test.\\[1.5cm]
-
-J'ai essayé les deux méthode, avec l'utilisation du kernel gaussiens pour les deux cas, et aussi en variant la valeur de la variables gamma, et j'ai conclue après les testes sur les deux modèles que le (Un contre Un) et mieux adapté pour notre cas.\\
-Puisque qu'on a 7 catégorie, le nombre de modèles utiliser est 21, chaque modèle sert à classifier la description entre deux classes, et c'est sur qu'il va y avoir un résultat .
+évaluations pour décider de l'étiquette d'un exemple de test.\\[0.5cm]
+J'ai essayé les deux méthode, avec l'utilisation du kernel gaussiens pour les deux cas, et aussi en variant la valeur de la variables gamma, et j'ai conclu après les testes sur les deux modèles que le (Un contre Un) et mieux adapté pour notre cas.\\
+Puisque qu'on a 7 catégories, le nombre de modèles utiliser est 21, chaque modèle sert à classifier la description entre deux classes, et c'est sûr qu'il va y avoir un résultat .
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[scale=0.7]{Images/svm_binaire.png}
@@ -370,7 +373,7 @@ Puisque qu'on a 7 catégorie, le nombre de modèles utiliser est 21, chaque mod�
 	\caption{Représentation d'un modèle binaire SVM}
 	\label{fig:svm0}
 \end{figure}
-L'algorithme utilisé consiste à faire les prédiction dans chaque modèle qu'on a , et puis après en regroupe le résultat finale dans un vecteur, qui contient lui aussi les valeurs d'apparition d'une classe dans une prédiction, on le résultat final, est la classe qui a apparu le plus, dans le vecteur .
+L'algorithme utilisé consiste à faire les prédictions dans chaque modèle qu'on a , et puis après en regroupe le résultat final dans un vecteur, qui contient lui aussi les valeurs d'apparition d'une classe dans une prédiction, en le résultat final, est la classe qui est apparue le plus, dans le vecteur .
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[scale=0.7]{Images/svm_rep.png}
