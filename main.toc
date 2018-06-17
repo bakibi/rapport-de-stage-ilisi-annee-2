@@ -19,43 +19,39 @@
 \contentsline {section}{\numberline {1.7}Planification pr\IeC {\'e}visionnelle}{10}{section.30}
 \contentsline {chapter}{\numberline {2}Analyse et Conception}{11}{chapter.32}
 \contentsline {section}{\numberline {2.1}Le Backlog du Produit}{11}{section.33}
-\contentsline {subsection}{\numberline {2.1.1}La m\IeC {\'e}thode de priorisation}{12}{subsection.35}
+\contentsline {subsection}{\numberline {2.1.1}La m\IeC {\'e}thode de priorisation}{11}{subsection.35}
 \contentsline {chapter}{\numberline {3}Sprint 0 : Preparation et \IeC {\'e}tude de projet}{13}{chapter.36}
-\contentsline {section}{\numberline {3.1}Sp\IeC {\'e}cification}{13}{section.37}
-\contentsline {subsection}{\numberline {3.1.1}Le Backlog du Sprint}{13}{subsection.38}
-\contentsline {section}{\numberline {3.2}Conception}{13}{section.40}
-\contentsline {subsection}{\numberline {3.2.1}Diagramme de cas d\IeC {\textquoteright }utilisation : services client}{13}{subsection.41}
-\contentsline {subsection}{\numberline {3.2.2}Diagramme de classes}{14}{subsection.43}
-\contentsline {subsection}{\numberline {3.2.3}Diagramme de s\IeC {\'e}quence}{15}{subsection.45}
-\contentsline {subsection}{\numberline {3.2.4}Diagramme de d\IeC {\'e}ploiement}{17}{subsection.47}
-\contentsline {section}{\numberline {3.3}NLP : Natural Language Processing}{18}{section.49}
-\contentsline {subsection}{\numberline {3.3.1}Machine learning}{18}{subsection.50}
-\contentsline {subsection}{\numberline {3.3.2}Deep Learning}{19}{subsection.51}
-\contentsline {subsection}{\numberline {3.3.3}NLP}{19}{subsection.52}
-\contentsline {section}{\numberline {3.4}Pr\IeC {\'e}paration des donn\IeC {\'e}es}{20}{section.53}
-\contentsline {subsection}{\numberline {3.4.1}Identification des sources de donn\IeC {\'e}es}{20}{subsection.54}
-\contentsline {subsection}{\numberline {3.4.2}D\IeC {\'e}finition du lieu d'entreposage}{21}{subsection.56}
-\contentsline {subsection}{\numberline {3.4.3}Nettoyage des donn\IeC {\'e}es}{21}{subsection.58}
-\contentsline {subsection}{\numberline {3.4.4}Features generation}{22}{subsection.59}
-\contentsline {subsection}{\numberline {3.4.5}Feature extration}{22}{subsection.60}
-\contentsline {chapter}{\numberline {4}Sprint 1 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme CNN}{24}{chapter.61}
-\contentsline {section}{\numberline {4.1}Sp\IeC {\'e}cification}{24}{section.62}
-\contentsline {subsection}{\numberline {4.1.1}Le Backlog du Sprint}{24}{subsection.63}
-\contentsline {section}{\numberline {4.2}Conception}{24}{section.65}
-\contentsline {subsection}{\numberline {4.2.1}Qu'est ce qu'un CNN/RNN ?}{24}{subsection.66}
-\contentsline {subsection}{\numberline {4.2.2}L'architecture de notre r\IeC {\'e}seaux neuronal}{26}{subsection.68}
-\contentsline {chapter}{\numberline {5}Sprint 2 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme SVM}{31}{chapter.75}
-\contentsline {section}{\numberline {5.1}Sp\IeC {\'e}cification}{31}{section.76}
-\contentsline {subsection}{\numberline {5.1.1}Le Backlog du Sprint}{31}{subsection.77}
-\contentsline {section}{\numberline {5.2}Conception}{31}{section.79}
-\contentsline {subsection}{\numberline {5.2.1}Qu'est ce que le SVM ?}{31}{subsection.80}
-\contentsline {subsection}{\numberline {5.2.2}impl\IeC {\'e}mentation et optimisation}{33}{subsection.82}
-\contentsline {chapter}{\numberline {6}Sprint 3 : Am\IeC {\'e}lioration du CNN avec word2vec}{37}{chapter.87}
-\contentsline {section}{\numberline {6.1}Sp\IeC {\'e}cification}{37}{section.88}
-\contentsline {subsection}{\numberline {6.1.1}Le Backlog du Sprint}{37}{subsection.89}
-\contentsline {section}{\numberline {6.2}Conception}{37}{section.91}
-\contentsline {subsection}{\numberline {6.2.1}Qu'est ce qu'un word2vec ?}{37}{subsection.92}
-\contentsline {subsection}{\numberline {6.2.2}Utilisation}{39}{subsection.93}
-\contentsline {chapter}{Conclusion \& Perspective}{40}{chapter*.95}
+\contentsline {section}{\numberline {3.1}Le Backlog du Sprint}{13}{section.37}
+\contentsline {section}{\numberline {3.2}Conception}{13}{section.39}
+\contentsline {subsection}{\numberline {3.2.1}Diagramme de cas d\IeC {\textquoteright }utilisation : services client}{13}{subsection.40}
+\contentsline {subsection}{\numberline {3.2.2}Diagramme de classes}{14}{subsection.42}
+\contentsline {subsection}{\numberline {3.2.3}Diagramme de s\IeC {\'e}quence}{15}{subsection.44}
+\contentsline {subsection}{\numberline {3.2.4}Diagramme de d\IeC {\'e}ploiement}{17}{subsection.46}
+\contentsline {section}{\numberline {3.3}NLP : Natural Language Processing}{18}{section.48}
+\contentsline {subsection}{\numberline {3.3.1}Machine learning}{18}{subsection.49}
+\contentsline {subsection}{\numberline {3.3.2}Deep Learning}{19}{subsection.50}
+\contentsline {subsection}{\numberline {3.3.3}NLP}{19}{subsection.51}
+\contentsline {section}{\numberline {3.4}Pr\IeC {\'e}paration des donn\IeC {\'e}es}{20}{section.52}
+\contentsline {subsection}{\numberline {3.4.1}Identification des sources de donn\IeC {\'e}es}{20}{subsection.53}
+\contentsline {subsection}{\numberline {3.4.2}D\IeC {\'e}finition du lieu d'entreposage}{21}{subsection.55}
+\contentsline {subsection}{\numberline {3.4.3}Nettoyage des donn\IeC {\'e}es}{21}{subsection.57}
+\contentsline {subsection}{\numberline {3.4.4}Features generation}{22}{subsection.58}
+\contentsline {subsection}{\numberline {3.4.5}Feature extration}{22}{subsection.59}
+\contentsline {chapter}{\numberline {4}Sprint 1 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme CNN}{24}{chapter.60}
+\contentsline {section}{\numberline {4.1}Le Backlog du Sprint 1}{24}{section.61}
+\contentsline {section}{\numberline {4.2}Conception}{24}{section.63}
+\contentsline {subsection}{\numberline {4.2.1}Qu'est ce qu'un CNN/RNN ?}{24}{subsection.64}
+\contentsline {subsection}{\numberline {4.2.2}L'architecture de notre r\IeC {\'e}seaux neuronal}{25}{subsection.66}
+\contentsline {chapter}{\numberline {5}Sprint 2 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme SVM}{31}{chapter.73}
+\contentsline {section}{\numberline {5.1}Le Backlog du Sprint 2}{31}{section.74}
+\contentsline {section}{\numberline {5.2}Conception}{31}{section.76}
+\contentsline {subsection}{\numberline {5.2.1}Qu'est ce que le SVM ?}{31}{subsection.77}
+\contentsline {subsection}{\numberline {5.2.2}impl\IeC {\'e}mentation et optimisation}{33}{subsection.79}
+\contentsline {chapter}{\numberline {6}Sprint 3 : Am\IeC {\'e}lioration du CNN avec word2vec}{37}{chapter.84}
+\contentsline {section}{\numberline {6.1}Le Backlog du Sprint 4}{37}{section.85}
+\contentsline {section}{\numberline {6.2}Conception}{37}{section.87}
+\contentsline {subsection}{\numberline {6.2.1}Qu'est ce qu'un word2vec ?}{37}{subsection.88}
+\contentsline {subsection}{\numberline {6.2.2}Utilisation}{39}{subsection.89}
+\contentsline {chapter}{Conclusion \& Perspective}{41}{chapter*.93}
 \vspace {2em}
 \vspace {2em}

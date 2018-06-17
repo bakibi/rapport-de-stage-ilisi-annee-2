@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  17 JUN 2018 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  18 JUN 2018 00:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -2177,7 +2177,7 @@ gne 63).
  ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<./Images/logo.png, id=245, 171.64125pt x 75.28125pt>
+<./Images/logo.png, id=229, 171.64125pt x 75.28125pt>
 File: ./Images/logo.png Graphic file (type png)
 <use ./Images/logo.png>
 Package pdftex.def Info: ./Images/logo.png  used (voir le source, ligne 120).
@@ -2260,7 +2260,7 @@ r ap-proche de tra-vail, gr^ace a des experiences
 [3
 
 ] [4] [5] [6]
-<Images/scrum.png, id=437, 812.03375pt x 316.18124pt>
+<Images/scrum.png, id=417, 812.03375pt x 316.18124pt>
 File: Images/scrum.png Graphic file (type png)
 <use Images/scrum.png>
 Package pdftex.def Info: Images/scrum.png  used (voir le source, ligne 92).
@@ -2303,104 +2303,107 @@ Overfull \hbox (10.78322pt too wide) in paragraph at lines 15--26
 [][] 
  []
 
-[11
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[12]
+[11
+
+] [12]
 Chapitre 3.
 ------------------------------------------------------------------------------
  3 Sprint 0 \@DP Preparation et \IeC {\'e}tude de projet
 ------------------------------------------------------------------------------
 
-Overfull \hbox (10.78322pt too wide) in paragraph at lines 56--65
+Overfull \hbox (10.78322pt too wide) in paragraph at lines 55--64
 [][] 
  []
 
-<Images/use_case_sanadtech.png, id=463, 746.3082pt x 363.2772pt>
+<Images/use_case_sanadtech.png, id=443, 746.3082pt x 363.2772pt>
 File: Images/use_case_sanadtech.png Graphic file (type png)
 <use Images/use_case_sanadtech.png>
 Package pdftex.def Info: Images/use_case_sanadtech.png  used (voir le source, l
-igne 72).
+igne 71).
 (pdftex.def)             Requested size: 529.88254pt x 257.92862pt.
 
-Overfull \hbox (76.27446pt too wide) in paragraph at lines 72--73
+Overfull \hbox (76.27446pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
 [13
 
 ]
-<Images/Class_diagram.png, id=468, 596.2275pt x 361.35pt>
+<Images/Class_diagram.png, id=448, 596.2275pt x 361.35pt>
 File: Images/Class_diagram.png Graphic file (type png)
 <use Images/Class_diagram.png>
 Package pdftex.def Info: Images/Class_diagram.png  used (voir le source, ligne 
-83).
+82).
 (pdftex.def)             Requested size: 476.98265pt x 289.0804pt.
 
-Overfull \hbox (23.37457pt too wide) in paragraph at lines 83--84
+Overfull \hbox (23.37457pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--86
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
 [14 <./Images/use_case_sanadtech.png>]
-Overfull \hbox (5.5163pt too wide) in paragraph at lines 88--92
+Overfull \hbox (5.5163pt too wide) in paragraph at lines 87--91
 []\OT1/cmr/m/n/10.95 La classe \OT1/cmr/bx/n/10.95 ApiAtacker\OT1/cmr/m/n/10.95
  ,c'est la classe res-pon-sable de l'ac-qui-si-tion des donnees de-puis les di
 fferentes
  []
 
-<Images/Sequence_Diagram_Sanadtech.png, id=473, 914.66719pt x 603.4545pt>
+<Images/Sequence_Diagram_Sanadtech.png, id=453, 914.66719pt x 603.4545pt>
 File: Images/Sequence_Diagram_Sanadtech.png Graphic file (type png)
 <use Images/Sequence_Diagram_Sanadtech.png>
 Package pdftex.def Info: Images/Sequence_Diagram_Sanadtech.png  used (voir le s
-ource, ligne 96).
+ource, ligne 95).
 (pdftex.def)             Requested size: 640.26268pt x 422.41527pt.
 
-Overfull \hbox (186.6546pt too wide) in paragraph at lines 96--97
+Overfull \hbox (186.6546pt too wide) in paragraph at lines 95--96
 [][] 
  []
 
 [15 <./Images/Class_diagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--104
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
 [16 <./Images/Sequence_Diagram_Sanadtech.png>]
-<Images/Deployment_Diagram_Sanadtech.png, id=483, 826.0461pt x 418.2024pt>
+<Images/Deployment_Diagram_Sanadtech.png, id=463, 826.0461pt x 418.2024pt>
 File: Images/Deployment_Diagram_Sanadtech.png Graphic file (type png)
 <use Images/Deployment_Diagram_Sanadtech.png>
 Package pdftex.def Info: Images/Deployment_Diagram_Sanadtech.png  used (voir le
- source, ligne 108).
+ source, ligne 107).
 (pdftex.def)             Requested size: 453.60808pt x 229.64828pt.
  [17 <./Images/Deployment_Diagram_Sanadtech.png>] [18] [19]
-<Images/donnees_contenu.png, id=498, 730.98094pt x 375.65344pt>
+<Images/donnees_contenu.png, id=478, 730.98094pt x 375.65344pt>
 File: Images/donnees_contenu.png Graphic file (type png)
 <use Images/donnees_contenu.png>
 Package pdftex.def Info: Images/donnees_contenu.png  used (voir le source, lign
-e 150).
+e 149).
 (pdftex.def)             Requested size: 453.60808pt x 233.10907pt.
  [20 <./Images/donnees_contenu.png>]
-<Images/google-cloud-bigtable.png, id=504, 600.2425pt x 338.26375pt>
+<Images/google-cloud-bigtable.png, id=484, 600.2425pt x 338.26375pt>
 File: Images/google-cloud-bigtable.png Graphic file (type png)
 <use Images/google-cloud-bigtable.png>
 Package pdftex.def Info: Images/google-cloud-bigtable.png  used (voir le source
-, ligne 160).
+, ligne 159).
 (pdftex.def)             Requested size: 300.12051pt x 169.13145pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
+Underfull \hbox (badness 10000) in paragraph at lines 156--163
 
  []
 
 [21 <./Images/google-cloud-bigtable.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
 
  []
 
@@ -2411,82 +2414,74 @@ Chapitre 4.
 e de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme CNN
 ------------------------------------------------------------------------------
 
-Overfull \hbox (10.78322pt too wide) in paragraph at lines 192--199
+Overfull \hbox (10.78322pt too wide) in paragraph at lines 198--205
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--210
-
  []
 
 [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-<Images/rnn.png, id=522, 803.0pt x 268.00125pt>
+<Images/rnn.png, id=502, 803.0pt x 268.00125pt>
 File: Images/rnn.png Graphic file (type png)
 <use Images/rnn.png>
-Package pdftex.def Info: Images/rnn.png  used (voir le source, ligne 218).
+Package pdftex.def Info: Images/rnn.png  used (voir le source, ligne 222).
 (pdftex.def)             Requested size: 401.49902pt x 134.00029pt.
-<Images/cnn.png, id=523, 770.88pt x 310.91156pt>
+<Images/cnn.png, id=503, 770.88pt x 310.91156pt>
 File: Images/cnn.png Graphic file (type png)
 <use Images/cnn.png>
-Package pdftex.def Info: Images/cnn.png  used (voir le source, ligne 230).
+Package pdftex.def Info: Images/cnn.png  used (voir le source, ligne 234).
 (pdftex.def)             Requested size: 453.60808pt x 182.94757pt.
-[25 <./Images/rnn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+ [25 <./Images/rnn.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-<Images/cnn1.png, id=529, 1027.84pt x 526.96875pt>
+<Images/cnn1.png, id=509, 1027.84pt x 526.96875pt>
 File: Images/cnn1.png Graphic file (type png)
 <use Images/cnn1.png>
-Package pdftex.def Info: Images/cnn1.png  used (voir le source, ligne 240).
+Package pdftex.def Info: Images/cnn1.png  used (voir le source, ligne 244).
 (pdftex.def)             Requested size: 453.60808pt x 232.56651pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
 [26 <./Images/cnn.png> <./Images/cnn1.png>]
-File: Images/cnn1.png Graphic file (type png)
-<use Images/cnn1.png>
-Package pdftex.def Info: Images/cnn1.png  used (voir le source, ligne 252).
-(pdftex.def)             Requested size: 453.60808pt x 232.56651pt.
+<Images/cnn2.png, id=516, 1023.825pt x 522.95375pt>
+File: Images/cnn2.png Graphic file (type png)
+<use Images/cnn2.png>
+Package pdftex.def Info: Images/cnn2.png  used (voir le source, ligne 256).
+(pdftex.def)             Requested size: 453.60808pt x 231.69627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--262
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 262--266
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+[27 <./Images/cnn2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
-<Images/cnn3.png, id=541, 1027.84pt x 560.0925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+<Images/cnn3.png, id=523, 1027.84pt x 560.0925pt>
 File: Images/cnn3.png Graphic file (type png)
 <use Images/cnn3.png>
-Package pdftex.def Info: Images/cnn3.png  used (voir le source, ligne 272).
+Package pdftex.def Info: Images/cnn3.png  used (voir le source, ligne 276).
 (pdftex.def)             Requested size: 453.60808pt x 247.18498pt.
 [28]
-<Images/cnn4.png, id=546, 770.88pt x 260.975pt>
+<Images/cnn4.png, id=528, 770.88pt x 260.975pt>
 File: Images/cnn4.png Graphic file (type png)
 <use Images/cnn4.png>
-Package pdftex.def Info: Images/cnn4.png  used (voir le source, ligne 283).
+Package pdftex.def Info: Images/cnn4.png  used (voir le source, ligne 287).
 (pdftex.def)             Requested size: 453.60808pt x 153.56375pt.
-<Images/cnn5.png, id=547, 770.88pt x 262.9825pt>
+<Images/cnn5.png, id=529, 770.88pt x 262.9825pt>
 File: Images/cnn5.png Graphic file (type png)
 <use Images/cnn5.png>
-Package pdftex.def Info: Images/cnn5.png  used (voir le source, ligne 291).
+Package pdftex.def Info: Images/cnn5.png  used (voir le source, ligne 295).
 (pdftex.def)             Requested size: 453.60808pt x 154.745pt.
  [29 <./Images/cnn3.png> <./Images/cnn4.png>] [30 <./Images/cnn5.png>]
 Chapitre 5.
@@ -2495,53 +2490,49 @@ Chapitre 5.
 e de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme SVM
 ------------------------------------------------------------------------------
 
-Overfull \hbox (10.78322pt too wide) in paragraph at lines 309--316
+Overfull \hbox (10.78322pt too wide) in paragraph at lines 316--323
 [][] 
  []
 
-<Images/ex_svm.png, id=560, 358.33875pt x 276.28218pt>
+<Images/ex_svm.png, id=542, 358.33875pt x 276.28218pt>
 File: Images/ex_svm.png Graphic file (type png)
 <use Images/ex_svm.png>
-Package pdftex.def Info: Images/ex_svm.png  used (voir le source, ligne 325).
+Package pdftex.def Info: Images/ex_svm.png  used (voir le source, ligne 332).
 (pdftex.def)             Requested size: 179.16893pt x 138.14075pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
+Underfull \hbox (badness 10000) in paragraph at lines 328--336
 
  []
 
 [31
 
 ]
-Overfull \hbox (8.02614pt too wide) in paragraph at lines 330--335
+Overfull \hbox (8.02614pt too wide) in paragraph at lines 337--343
 \OT1/cmr/m/n/10.95 Autre chose qui est ma-gni-fique chez le SVM,c'est que son p
 ou-voir d'ap-pren-tis-sage est independante
  []
 
 [32 <./Images/ex_svm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 338--359
-
- []
-
-[33]
-<Images/svm_binaire.png, id=576, 358.33875pt x 276.28218pt>
+<Images/svm_binaire.png, id=553, 358.33875pt x 276.28218pt>
 File: Images/svm_binaire.png Graphic file (type png)
 <use Images/svm_binaire.png>
-Package pdftex.def Info: Images/svm_binaire.png  used (voir le source, ligne 36
-4).
+Package pdftex.def Info: Images/svm_binaire.png  used (voir le source, ligne 37
+1).
 (pdftex.def)             Requested size: 250.83542pt x 193.3962pt.
-<Images/svm_rep.png, id=577, 358.33875pt x 276.28218pt>
+ [33]
+<Images/svm_rep.png, id=559, 358.33875pt x 276.28218pt>
 File: Images/svm_rep.png Graphic file (type png)
 <use Images/svm_rep.png>
-Package pdftex.def Info: Images/svm_rep.png  used (voir le source, ligne 372).
+Package pdftex.def Info: Images/svm_rep.png  used (voir le source, ligne 379).
 (pdftex.def)             Requested size: 250.83542pt x 193.3962pt.
  [34 <./Images/svm_binaire.png>]
 File: Images/cnn4.png Graphic file (type png)
 <use Images/cnn4.png>
-Package pdftex.def Info: Images/cnn4.png  used (voir le source, ligne 384).
+Package pdftex.def Info: Images/cnn4.png  used (voir le source, ligne 391).
 (pdftex.def)             Requested size: 453.60808pt x 153.56375pt.
 File: Images/cnn5.png Graphic file (type png)
 <use Images/cnn5.png>
-Package pdftex.def Info: Images/cnn5.png  used (voir le source, ligne 392).
+Package pdftex.def Info: Images/cnn5.png  used (voir le source, ligne 399).
 (pdftex.def)             Requested size: 453.60808pt x 154.745pt.
  [35 <./Images/svm_rep.png>] [36]
 Chapitre 6.
@@ -2549,30 +2540,45 @@ Chapitre 6.
  6 Sprint 3 \@DP Am\IeC {\'e}lioration du CNN avec word2vec
 ------------------------------------------------------------------------------
 
-Overfull \hbox (10.78322pt too wide) in paragraph at lines 414--421
+Overfull \hbox (10.78322pt too wide) in paragraph at lines 421--428
 [][] 
  []
 
 [37
 
 ]
-<Images/w2vcnn.png, id=595, 560.8453pt x 304.13625pt>
+<Images/w2vcnn.png, id=577, 560.8453pt x 304.13625pt>
 File: Images/w2vcnn.png Graphic file (type png)
 <use Images/w2vcnn.png>
-Package pdftex.def Info: Images/w2vcnn.png  used (voir le source, ligne 435).
+Package pdftex.def Info: Images/w2vcnn.png  used (voir le source, ligne 442).
 (pdftex.def)             Requested size: 453.60808pt x 245.98239pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--439
+Underfull \hbox (badness 10000) in paragraph at lines 438--446
 
  []
 
-[38]) (Chapters/Conclusion.tex [39 <./Images/w2vcnn.png>])
+[38]
+<Images/w2vcnnloss.png, id=582, 746.79pt x 215.80624pt>
+File: Images/w2vcnnloss.png Graphic file (type png)
+<use Images/w2vcnnloss.png>
+Package pdftex.def Info: Images/w2vcnnloss.png  used (voir le source, ligne 455
+).
+(pdftex.def)             Requested size: 453.60808pt x 131.0818pt.
+ [39 <./Images/w2vcnn.png>]
+<Images/w2vcnnaccury.png, id=587, 944.52875pt x 447.6725pt>
+File: Images/w2vcnnaccury.png Graphic file (type png)
+<use Images/w2vcnnaccury.png>
+Package pdftex.def Info: Images/w2vcnnaccury.png  used (voir le source, ligne 4
+63).
+(pdftex.def)             Requested size: 453.60808pt x 214.99648pt.
+) (Chapters/Conclusion.tex [40 <./Images/w2vcnnloss.png> <./Images/w2vcnnaccury
+.png>])
 Overfull \hbox (8.45328pt too wide) in paragraph at lines 3--314
 []\OT1/cmr/m/n/10.95 Pour conclure, j'ai ef-fectue mon stage de deuxieme ann
 ee de cycle d'ingenierie lo-gi-ciel et integration
  []
 
-[40
+[41
 
 ]
 ------------------------------------------------------------------------------
@@ -2588,9 +2594,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' (voir le source, lig
 ne 346).
 Package atveryend Info: Executing hook `AtEndAfterFileList' (voir le source, li
 gne 346).
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C27A4FD8B438FA00BEDA5911991295FE;12205.
 
+
+Extension rerunfilecheck : ATTENTION, File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 478A9B50839B1AB1581175ED103F39FE;11604
+(rerunfilecheck)             After:  87FD0B374484E4E2F72B8DF453ECCB7C;11604.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2598,30 +2610,33 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' (voir le source, ligne 346).
 
  ) 
 Here is how much of TeX's memory you used:
- 37490 strings out of 493305
- 689962 string characters out of 3128932
- 730158 words of memory out of 3000000
- 40340 multiletter control sequences out of 15000+200000
+ 37501 strings out of 493305
+ 690233 string characters out of 3128932
+ 730156 words of memory out of 3000000
+ 40348 multiletter control sequences out of 15000+200000
  543805 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,77p,1113b,845s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Souhail/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Souh
-ail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Souhail/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Souhail/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/U
-sers/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/latx
-font/lasy10.pfb>
-Output written on main.pdf (48 pages, 1657575 bytes).
+ 55i,13n,77p,1118b,845s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{chapter*.91} has been referenced but does not exi
+st, replaced by a fixed one
+
+<C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Souhail/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Souhai
+l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Souhail/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Souhail/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
+rs/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfo
+nt/lasy10.pfb>
+Output written on main.pdf (49 pages, 1844976 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
+ 669 PDF objects out of 1000 (max. 8388607)
  144 named destinations out of 1000 (max. 500000)
- 575 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 words of extra memory for PDF output out of 10000 (max. 10000000)
 

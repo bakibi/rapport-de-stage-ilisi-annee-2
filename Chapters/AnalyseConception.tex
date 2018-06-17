@@ -445,8 +445,24 @@ Avant l'algorithme CNN traité en input une taille de données qui est égale à
 	\label{fig:rnn}
 \end{figure}
 J'ai utilisé une taille de vecteur de word2vect égal à 5, parce que premièrement, mon corpus de données n'est pas assez grand, alors je vais économiser la mémoire, et deuxièmement pour minimiser la pertes de données au niveau de la fonction softmax.\\
-La precision finale est égale à 80\%, c'est bien meilleur que les deux approches discutées au paravent.
+La precision finale est presque égale à 80\%, c'est bien meilleur que les deux approches discutées au paravent.
 
 
+ L’état des pertes sur les variables de décision :
 
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=\linewidth]{Images/w2vcnnloss.png}
+	\end{center}
+	\caption{Graphe qui représente les données perdues, du cnn avec le w2v.}
+	\label{fig:rnn}
+\end{figure}
+ l'état des précision qui est égale à 0,75:
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=\linewidth]{Images/w2vcnnaccury.png}
+	\end{center}
+	\caption{Graphe qui représente la précision,du cnn avec le w2v.}
+	\label{fig:rnn}
+\end{figure}
 
