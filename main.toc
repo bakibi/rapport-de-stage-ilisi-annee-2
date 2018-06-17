@@ -1,62 +1,60 @@
 \contentsline {chapter}{Contents}{iv}{dummy.4}
 \contentsline {chapter}{List of Figures}{vi}{dummy.6}
-\contentsline {chapter}{List of Tables}{vii}{dummy.8}
-\contentsline {chapter}{Contents}{viii}{dummy.10}
-\contentsline {chapter}{Abbreviations}{ix}{dummy.12}
-\contentsline {chapter}{\numberline {1}Contexte g\IeC {\'e}n\IeC {\'e}rale du Projet}{2}{chapter.16}
-\contentsline {section}{\numberline {1.1}Pr\IeC {\'e}sentation de l\IeC {\textquoteright }organisme d\IeC {\textquoteright }accueil}{2}{section.17}
-\contentsline {subsection}{\numberline {1.1.1}SanadTech}{2}{subsection.18}
-\contentsline {subsection}{\numberline {1.1.2}L'\IeC {\'e}quipe}{3}{subsection.19}
-\contentsline {section}{\numberline {1.2}Pr\IeC {\'e}sentation du sujet}{3}{section.20}
-\contentsline {section}{\numberline {1.3}Technologies}{4}{section.21}
-\contentsline {subsection}{\numberline {1.3.1} la partie front-end}{4}{subsection.25}
-\contentsline {subsection}{\numberline {1.3.2}Pour la partie back-end }{5}{subsection.26}
-\contentsline {subsection}{\numberline {1.3.3}Pour la partie D\IeC {\'e}veloppement du mod\IeC {\`e}le}{5}{subsection.27}
-\contentsline {section}{\numberline {1.4}M\IeC {\'e}thodologie Adopt\IeC {\'e}e}{6}{section.28}
-\contentsline {subsection}{\numberline {1.4.1}Planification SCRUM}{6}{subsection.29}
-\contentsline {subsection}{\numberline {1.4.2}L'\IeC {\'e}quipe SCRUM}{7}{subsection.31}
-\contentsline {section}{\numberline {1.5}Langage de mod\IeC {\'e}lisation}{8}{section.32}
-\contentsline {section}{\numberline {1.6}TensorFlow : Librairie du machine learining et deep learning}{8}{section.33}
-\contentsline {section}{\numberline {1.7}Planification pr\IeC {\'e}visionnelle}{9}{section.34}
-\contentsline {chapter}{\numberline {2}Analyse et Conception}{10}{chapter.36}
-\contentsline {section}{\numberline {2.1}Le Backlog du Produit}{10}{section.37}
-\contentsline {subsection}{\numberline {2.1.1}La m\IeC {\'e}thode de priorisation}{11}{subsection.39}
-\contentsline {chapter}{\numberline {3}Sprint 0 : Preparation et \IeC {\'e}tude de projet}{12}{chapter.40}
-\contentsline {section}{\numberline {3.1}Sp\IeC {\'e}cification}{12}{section.41}
-\contentsline {subsection}{\numberline {3.1.1}Le Backlog du Sprint}{12}{subsection.42}
-\contentsline {section}{\numberline {3.2}Conception}{12}{section.44}
-\contentsline {subsection}{\numberline {3.2.1}Diagramme de cas d\IeC {\textquoteright }utilisation : services client}{12}{subsection.45}
-\contentsline {subsection}{\numberline {3.2.2}Diagramme de classes}{13}{subsection.47}
-\contentsline {subsection}{\numberline {3.2.3}Diagramme de s\IeC {\'e}quence}{14}{subsection.49}
-\contentsline {subsection}{\numberline {3.2.4}Diagramme de d\IeC {\'e}ploiement}{15}{subsection.51}
-\contentsline {section}{\numberline {3.3}NLP : Natural Language Processing}{16}{section.53}
-\contentsline {subsection}{\numberline {3.3.1}Machine learning}{16}{subsection.54}
-\contentsline {subsection}{\numberline {3.3.2}Depp Learning}{17}{subsection.55}
-\contentsline {subsection}{\numberline {3.3.3}NLP}{18}{subsection.56}
-\contentsline {section}{\numberline {3.4}Pr\IeC {\'e}paration des donn\IeC {\'e}es}{19}{section.57}
-\contentsline {subsection}{\numberline {3.4.1}Identification des sources de donn\IeC {\'e}es}{19}{subsection.58}
-\contentsline {subsection}{\numberline {3.4.2}D\IeC {\'e}finition du lieu d'entreposage}{20}{subsection.60}
-\contentsline {subsection}{\numberline {3.4.3}Nettoyage des donn\IeC {\'e}es}{20}{subsection.62}
-\contentsline {subsection}{\numberline {3.4.4}Features generation}{21}{subsection.63}
-\contentsline {subsection}{\numberline {3.4.5}Feature extration}{21}{subsection.64}
-\contentsline {chapter}{\numberline {4}Sprint 1 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme CNN}{22}{chapter.65}
-\contentsline {section}{\numberline {4.1}Sp\IeC {\'e}cification}{22}{section.66}
-\contentsline {subsection}{\numberline {4.1.1}Le Backlog du Sprint}{22}{subsection.67}
-\contentsline {section}{\numberline {4.2}Conception}{22}{section.69}
-\contentsline {subsection}{\numberline {4.2.1}Qu'est ce qu'un CNN/RNN ?}{22}{subsection.70}
-\contentsline {subsection}{\numberline {4.2.2}L'architecture de notre r\IeC {\'e}seaux neuronal}{24}{subsection.72}
-\contentsline {chapter}{\numberline {5}Sprint 2 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme SVM}{29}{chapter.79}
-\contentsline {section}{\numberline {5.1}Sp\IeC {\'e}cification}{29}{section.80}
-\contentsline {subsection}{\numberline {5.1.1}Le Backlog du Sprint}{29}{subsection.81}
-\contentsline {section}{\numberline {5.2}Conception}{29}{section.83}
-\contentsline {subsection}{\numberline {5.2.1}Qu'est ce que le SVM ?}{29}{subsection.84}
-\contentsline {subsection}{\numberline {5.2.2}impl\IeC {\'e}mentation et optimisation}{31}{subsection.86}
-\contentsline {chapter}{\numberline {6}Sprint 3 : Am\IeC {\'e}lioration du CNN avec word2vec}{35}{chapter.91}
-\contentsline {section}{\numberline {6.1}Sp\IeC {\'e}cification}{35}{section.92}
-\contentsline {subsection}{\numberline {6.1.1}Le Backlog du Sprint}{35}{subsection.93}
-\contentsline {section}{\numberline {6.2}Conception}{35}{section.95}
-\contentsline {subsection}{\numberline {6.2.1}Qu'est ce qu'un word2vec ?}{35}{subsection.96}
-\contentsline {subsection}{\numberline {6.2.2}Utilisation}{37}{subsection.97}
+\contentsline {chapter}{Abbreviations}{vii}{dummy.8}
+\contentsline {chapter}{\numberline {1}Contexte g\IeC {\'e}n\IeC {\'e}rale du Projet}{2}{chapter.12}
+\contentsline {section}{\numberline {1.1}Pr\IeC {\'e}sentation de l\IeC {\textquoteright }organisme d\IeC {\textquoteright }accueil}{2}{section.13}
+\contentsline {subsection}{\numberline {1.1.1}SanadTech}{2}{subsection.14}
+\contentsline {subsection}{\numberline {1.1.2}L'\IeC {\'e}quipe}{3}{subsection.15}
+\contentsline {section}{\numberline {1.2}Pr\IeC {\'e}sentation du sujet}{3}{section.16}
+\contentsline {section}{\numberline {1.3}Technologies}{4}{section.17}
+\contentsline {subsection}{\numberline {1.3.1} la partie front-end}{4}{subsection.21}
+\contentsline {subsection}{\numberline {1.3.2}Pour la partie back-end }{5}{subsection.22}
+\contentsline {subsection}{\numberline {1.3.3}Pour la partie D\IeC {\'e}veloppement du mod\IeC {\`e}le}{5}{subsection.23}
+\contentsline {section}{\numberline {1.4}M\IeC {\'e}thodologie Adopt\IeC {\'e}e}{6}{section.24}
+\contentsline {subsection}{\numberline {1.4.1}Planification SCRUM}{6}{subsection.25}
+\contentsline {subsection}{\numberline {1.4.2}L'\IeC {\'e}quipe SCRUM}{7}{subsection.27}
+\contentsline {section}{\numberline {1.5}Langage de mod\IeC {\'e}lisation}{8}{section.28}
+\contentsline {section}{\numberline {1.6}TensorFlow : Librairie du machine learining et deep learning}{8}{section.29}
+\contentsline {section}{\numberline {1.7}Planification pr\IeC {\'e}visionnelle}{9}{section.30}
+\contentsline {chapter}{\numberline {2}Analyse et Conception}{10}{chapter.32}
+\contentsline {section}{\numberline {2.1}Le Backlog du Produit}{10}{section.33}
+\contentsline {subsection}{\numberline {2.1.1}La m\IeC {\'e}thode de priorisation}{11}{subsection.35}
+\contentsline {chapter}{\numberline {3}Sprint 0 : Preparation et \IeC {\'e}tude de projet}{12}{chapter.36}
+\contentsline {section}{\numberline {3.1}Sp\IeC {\'e}cification}{12}{section.37}
+\contentsline {subsection}{\numberline {3.1.1}Le Backlog du Sprint}{12}{subsection.38}
+\contentsline {section}{\numberline {3.2}Conception}{12}{section.40}
+\contentsline {subsection}{\numberline {3.2.1}Diagramme de cas d\IeC {\textquoteright }utilisation : services client}{12}{subsection.41}
+\contentsline {subsection}{\numberline {3.2.2}Diagramme de classes}{13}{subsection.43}
+\contentsline {subsection}{\numberline {3.2.3}Diagramme de s\IeC {\'e}quence}{14}{subsection.45}
+\contentsline {subsection}{\numberline {3.2.4}Diagramme de d\IeC {\'e}ploiement}{16}{subsection.47}
+\contentsline {section}{\numberline {3.3}NLP : Natural Language Processing}{17}{section.49}
+\contentsline {subsection}{\numberline {3.3.1}Machine learning}{17}{subsection.50}
+\contentsline {subsection}{\numberline {3.3.2}Deep Learning}{18}{subsection.51}
+\contentsline {subsection}{\numberline {3.3.3}NLP}{18}{subsection.52}
+\contentsline {section}{\numberline {3.4}Pr\IeC {\'e}paration des donn\IeC {\'e}es}{19}{section.53}
+\contentsline {subsection}{\numberline {3.4.1}Identification des sources de donn\IeC {\'e}es}{19}{subsection.54}
+\contentsline {subsection}{\numberline {3.4.2}D\IeC {\'e}finition du lieu d'entreposage}{20}{subsection.56}
+\contentsline {subsection}{\numberline {3.4.3}Nettoyage des donn\IeC {\'e}es}{20}{subsection.58}
+\contentsline {subsection}{\numberline {3.4.4}Features generation}{21}{subsection.59}
+\contentsline {subsection}{\numberline {3.4.5}Feature extration}{21}{subsection.60}
+\contentsline {chapter}{\numberline {4}Sprint 1 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme CNN}{23}{chapter.61}
+\contentsline {section}{\numberline {4.1}Sp\IeC {\'e}cification}{23}{section.62}
+\contentsline {subsection}{\numberline {4.1.1}Le Backlog du Sprint}{23}{subsection.63}
+\contentsline {section}{\numberline {4.2}Conception}{23}{section.65}
+\contentsline {subsection}{\numberline {4.2.1}Qu'est ce qu'un CNN/RNN ?}{23}{subsection.66}
+\contentsline {subsection}{\numberline {4.2.2}L'architecture de notre r\IeC {\'e}seaux neuronal}{25}{subsection.68}
+\contentsline {chapter}{\numberline {5}Sprint 2 : R\IeC {\'e}alisation d\IeC {\textquoteright }un mod\IeC {\`e}le de pr\IeC {\'e}diction avec l\IeC {\textquoteright }algorithme SVM}{30}{chapter.75}
+\contentsline {section}{\numberline {5.1}Sp\IeC {\'e}cification}{30}{section.76}
+\contentsline {subsection}{\numberline {5.1.1}Le Backlog du Sprint}{30}{subsection.77}
+\contentsline {section}{\numberline {5.2}Conception}{30}{section.79}
+\contentsline {subsection}{\numberline {5.2.1}Qu'est ce que le SVM ?}{30}{subsection.80}
+\contentsline {subsection}{\numberline {5.2.2}impl\IeC {\'e}mentation et optimisation}{32}{subsection.82}
+\contentsline {chapter}{\numberline {6}Sprint 3 : Am\IeC {\'e}lioration du CNN avec word2vec}{36}{chapter.87}
+\contentsline {section}{\numberline {6.1}Sp\IeC {\'e}cification}{36}{section.88}
+\contentsline {subsection}{\numberline {6.1.1}Le Backlog du Sprint}{36}{subsection.89}
+\contentsline {section}{\numberline {6.2}Conception}{36}{section.91}
+\contentsline {subsection}{\numberline {6.2.1}Qu'est ce qu'un word2vec ?}{36}{subsection.92}
+\contentsline {subsection}{\numberline {6.2.2}Utilisation}{38}{subsection.93}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}CNN}{39}{appendix.99}
+\contentsline {chapter}{\numberline {A}CNN}{40}{appendix.96}
 \vspace {2em}

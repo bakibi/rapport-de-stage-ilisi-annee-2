@@ -67,49 +67,49 @@ En tant qu'utilisateur, je souhaite pouvoir ajouter un contenu au favoris pour q
 \end{figure}
 \section{Conception}
 \subsection{Diagramme de cas d’utilisation : services client}
-Comme on peut voir dans le digramme ci-dessous , on a trois acteurs : le client, l'administrateur, et le modèle de machine learning de classification.\\[0.2cm]
+Comme on peut voir dans le digramme \textbf{FIG.3.2} , on a trois acteurs : le client, l'administrateur, et le modèle de machine learning de classification.\\[0.2cm]
 \begin{figure}[h]
-	\includegraphics[width=\linewidth]{Images/use_case_sanadtech.png}
+	\includegraphics[scale=0.71]{Images/use_case_sanadtech.png}
 	\caption{Diagramme de cas d'utilisation}
 	\label{fig:cas-utilisation}
 \end{figure}
 
-Pour que le client puisse visualiser les nouveautés , il faut que ces dernières soient classifier selon leurs catégories ,par le modèle, après cette manipulation ,le client pourra naviguer dans la page d'accueil et voir les nouveautés .\\[0.2cm]
+Pour que le client puisse visualiser les nouveautés , il faut que ces dernières soient classifier selon leurs catégories par le modèle, après cette manipulation, le client pourra naviguer dans la page d'accueil et voir les nouveautés .\\[0.2cm]
 Quand l'administrateur verra qu'une nouveauté est pertinente, il va lancer une notification, laquelle le client va recevoir, et pourra la visualiser en exclusivité.
 
 \subsection{Diagramme de classes}
-Comme on peut voir dans le digramme ci-dessous , on a cinq classes : User, News, Catégorie; ApiAtacker et le modèle.\\[0.2cm]
+Comme on peut voir dans le digramme de la figure \textbf{FIG.3.3} , on a cinq classes : User, News, Catégorie; ApiAtacker et le modèle.\\[0.2cm]
 \begin{figure}[H]
-	\includegraphics[scale=0.5]{Images/Class_diagram.png}
+	\includegraphics[scale=0.8]{Images/Class_diagram.png}
 	\caption{Diagramme de classe}
 	\label{fig:classe1}
 \end{figure}
 
-La classe \textbf{ApiAtacker},c'est la classe responsable de l'acquisition des données depuis les différentes sources qu'on a tels que : youtube, hesspress ...\\[0.2cm]
+La classe \textbf{ApiAtacker},c'est la classe responsable de l'acquisition des données depuis les différentes sources qu'on a, tels que : youtube, hesspress ...\\[0.2cm]
 La classe News représente une nouveauté dans notre système, et chaque nouveauté est lié par une et une seul catégorie.\\[0.2cm]
 Ici, la classe Model joue le rôle du classificateur, elle est celle qui transforme une nouveauté non étiqueté en une qui est qui est  étiqueté.\\[0.2cm]
 Par ces différentes méthode, la classe User représente un client dans notre système, il décrit toutes ses actions possible.
 
 \subsection{Diagramme de séquence}
-Comme vous pouvez constater dans le diagramme ci-dessous, nous avons quatre ligne de vie, Client, Application front-end, Application back-end, Model tensorFlow.
+Comme vous pouvez constater dans le diagramme de la figure \textbf{FIG.3.4}, nous avons quatre ligne de vie dont le  Client, l'Application front-end, l'Application back-end,et le  Model tensorFlow.
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{Images/Sequence_Diagram_Sanadtech.png}
+	\includegraphics[scale=0.70]{Images/Sequence_Diagram_Sanadtech.png}
 	\caption{Diagramme de séquence}
 	\label{fig:sequence}
 \end{figure}
-L'activité de l'application au point de vue client commence, qu'on un utilisateurs installe l'app dans son téléphone, il pourra ensuite recevoir les notifications des nouveautés les plus important.\\[0.2cm]
-Quand un utilisateur consulte les nouveauté , le front-end envoi une requête au back-end, et ce dernier lui envoi tout les news par ordre de date.\\[0.2cm]
-Si une news viens juste d'être intercepter par le back-end, il envoi alors, une requête au modèle Tensorflow pour savoir de quelle catégorie cette news appartiens. Et puis après, le back-end l'enregistre avec ça nouvelle classe ou catégorie.\\[0.4cm]
+L'activité de l'application au point de vue client commence, qu'on un utilisateur installe l'app dans son téléphone, il pourra ensuite recevoir les notifications des nouveautés les plus important.\\[0.2cm]
+Quand un utilisateur consulte les nouveautés , le front-end envoi une requête au back-end, et ce dernier lui envoi tout les news par ordre de date.\\[0.2cm]
+Si une news viens juste d'être intercepter par le back-end, elle envoi alors, une requête au modèle Tensorflow pour savoir de quelle catégorie cette news appartiens. Et puis après, le back-end l'enregistre avec ça nouvelle classe ou catégorie.\\[0.4cm]
 Si une nouveauté est jugé comme importante, elle sera envoyer vers toutes les utilisateurs sous la forme d'une notifications, depuis le back-end.\\[0.2cm]
 
 \subsection{Diagramme de déploiement}
-Le diagramme ci-dessous contient 4 nœuds principale, on site : front-end server, back-end server, database server , Model tensorflow server.
+Le diagramme de la figure \textbf{FIG.3.5} contient 4 nœuds principales, on site : front-end server, back-end server, database server , Model tensorflow server.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{Images/Deployment_Diagram_Sanadtech.png}
 	\caption{Diagramme de déploiement}
 	\label{fig:deployment}
 \end{figure}
-Front-end server , c'est ou l'application finale est déployé, d'ici les utilisateur peuvent la télécharger, depuis les différentes Store, comme google play, apple store ...,ou la consulter dans le cas d'un navigateur.\\[0.2cm]
+Front-end server , c'est ou l'application finale est déployé, d'ici les utilisateurs peuvent la télécharger, depuis les différentes Stores, comme google play, apple store ...,ou la consulter dans le cas d'un navigateur.\\[0.2cm]
 Back-end server, c'est ou le apiAtacker est situé , l'application envoi des requêtes vers ce nœud pour avoir les news.\\[0.2cm]
 Database server, ici on stocke nos données , on utilise la base de donnée de google Big Table.\\[0.2cm]
 Model Tensorflow Server, c'est ou notre model de prédiction est stocké , le modèle est écrit par tensorflow et déployer dans le service google ML-engine.
@@ -117,14 +117,14 @@ Model Tensorflow Server, c'est ou notre model de prédiction est stocké , le mo
 
 
 \section{NLP : Natural Language Processing}
-Le modèle de classification qu'on va réaliser entre  dans la catégorie de la NLP, avant de le définir et l'expliquer, il faut d'abord rappeler qu'est ce que la machine learning et le deep learning.
+Le modèle de classification qu'on va réaliser entre  dans la catégorie de la NLP, avant de le définir et l'expliquer, il faut d'abord rappeler qu'est ce que le machine learning et le deep learning.
 \subsection{Machine learning}
 L'apprentissage automatique (en anglais machine learning, littéralement « l'apprentissage machine ») ou apprentissage statistique, champ d'étude de l'intelligence artificielle, concerne la conception, l'analyse, le développement et l'implémentation de méthodes permettant à une machine (au sens large) d'évoluer par un processus systématique, et ainsi de remplir des tâches difficiles ou problématiques par des moyens algorithmiques plus classiques.\\[0.5cm]
 L'analyse peut concerner des graphes, arbres, ou courbes (par exemple, la courbe d'évolution temporelle d'une mesure ; on parle alors de données continues, par opposition aux données discrètes associées à des attributs-valeurs classiques) au même titre que de simples nombres. Voir l'article Inférence bayésienne.\\[0.5cm]
 Les algorithmes utilisés permettent, dans une certaine mesure, à un système piloté par ordinateur (un robot éventuellement), ou assisté par ordinateur, d'adapter ses analyses et ses comportements en réponse, en se fondant sur l'analyse de données empiriques provenant d'une base de données ou de capteurs.\\
 La difficulté réside dans le fait que l'ensemble de tous les comportements possibles compte tenu de toutes les entrées possibles devient rapidement trop complexe à décrire (on parle d'explosion combinatoire). On confie donc à des programmes le soin d'ajuster un modèle pour simplifier cette complexité et de l'utiliser de manière opérationnelle. Idéalement, l'apprentissage visera à être non supervisé, c'est-à-dire que la nature des données d'entrainement n'est pas connue.\\[0.5cm]
 Ces programmes, selon leur degré de perfectionnement, intègrent éventuellement des capacités de traitement probabiliste des données, d'analyse de données issues de capteurs, de reconnaissance (reconnaissance vocale, reconnaissance de forme, d'écriture…), de data-mining, d'informatique théorique…
-\subsection{Depp Learning}
+\subsection{Deep Learning}
 L'apprentissage profond1 (en anglais deep learning, deep structured learning, hierarchical learning) est un ensemble de méthodes d'apprentissage automatique tentant de modéliser avec un haut niveau d’abstraction des données grâce à des architectures articulées de différentes transformations non linéaires[réf. souhaitée]. Ces techniques ont permis des progrès importants et rapides dans les domaines de l'analyse du signal sonore ou visuel et notamment de la reconnaissance faciale, de la reconnaissance vocale, de la vision par ordinateur, du traitement automatisé du langage. Dans les années 2000, ces progrès ont suscité des investissements privés, universitaires et publics importants, notamment de la part des GAFA (Google, Apple, Facebook, Amazon).\\[0.5cm]
 Les recherches dans ce domaine s’efforcent de construire de meilleures représentations du réel et de créer des modèles capables d’apprendre ces représentations à partir de données non labellisées à grande échelle. Certaines de ces représentations s’inspirent des dernières avancées en neuroscience. Il s'agit, grosso modo, d'interprétations du traitement de l’information et des modèles de communication du système nerveux, à l'image de la façon dont le système nerveux établit des connexions en fonction des messages reçus, de la réponse neuronale et du poids des connexions entre les neurones du cerveau.\\
 Les différentes architectures de « deep learning » telles que les « deep neural networks », les « convolutional deep neural networks », et les « deep belief network » ont plusieurs champs d’application :
@@ -173,12 +173,13 @@ Les données utilisées proviennent de diverses sources et processus et peuvent 
 Les données de qualité sont une condition préalable à la qualité des modèles prédictifs. Pour éviter les «déchets» et améliorer la qualité des données et donc la performance du modèle, nous avons trouvé qu'il est impératif de réaliser un écran d'intégrité des données afin de repérer rapidement les problèmes de données et de décider des étapes de traitement et de nettoyage correspondantes.
 \subsection{Features generation}
 C'est un processus consistant à prendre des données brutes non structurées et à définir des caractéristiques (c'est-à-dire des variables) pour une utilisation potentielle dans l'analyse statistique.\\
- Par exemple, dans le cas de l'exploration de texte \textit{(notre cas)}, on a  commencé avec un journal brut de milliers de descriptions \textit{(celles des vidéos)} et générer des fonctionnalités en supprimant des mots de faible valeur. des blocs de mots \textit{(n-grammes)} ou en appliquant d'autres règles.
+ Par exemple, dans le cas de l'exploration de texte \textit{(notre cas)}, on a  commencé avec un journal brut de milliers de descriptions \textit{(celles des vidéos)} et générer des fonctionnalités en supprimant des mots de faible valeur. des blocs de mots \textit{(n-grammes)} ou en appliquant d'autres règles.\\[0.5cm]
+pour notre cas, on prend le corpus de données et on fait une relation symétrique entre les données de types chaine de caractère,et des entiers unique, qu'on le store par la suite dans un dictionnaire de données.
 \subsection{Feature extration}
 Une fois les fonctionnalités générées, il est souvent nécessaire de tester les transformations des entités d'origine et de sélectionner un sous-ensemble de ce groupe de caractéristiques potentielles originales et dérivées à utiliser dans notre modèle (extraction et sélection de caractéristiques).\\[0.2cm]
 Tester des valeurs dérivées est une étape courante car les données peuvent contenir des informations importantes qui ont un modèle ou une relation non linéaire avec notre résultat, ainsi l'importance de l'élément de données peut seulement apparaître dans son état transformé (par exemple des dérivés d'ordre supérieur).\\[0.2cm]
- L'utilisation d'un trop grand nombre de caractéristiques peut entraîner une colinéarité multiple ou confondre des modèles statistiques, alors qu'extraire le nombre minimum de caractéristiques correspondant au but de votre analyse suit le principe de la parcimonie.
-
+ L'utilisation d'un trop grand nombre de caractéristiques peut entraîner une colinéarité multiple ou confondre des modèles statistiques, alors qu'extraire le nombre minimum de caractéristiques correspondant au but de votre analyse suit le principe de la parcimonie.\\[0.2cm]
+\\On a divisé les données generées en deux parties, les données de d'entrainement qu'on lui a attribué 60\% des données du corpus, et les données de test qui formes un pourcentage de 40\%. 
 \chapter{Sprint 1 : Réalisation d’un modèle de prédiction avec l’algorithme CNN}
 \label{Chapitre 4} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
@@ -429,7 +430,13 @@ Word2vec est un modèle prédictif particulièrement efficace sur le plan inform
 \subsection{Utilisation}
 Ce qui m'a motivé d'utiliser le word2vect est le problème de pertes données au niveau de l'entrer du Convolutinal Neural Network du premier algorithme, et aussi le plus qui va ajouter l'approche sémantique à la precision de l'algorithme.\\
 Avant l'algorithme CNN traité en input un taille de données qui est égal à 30, cette taille constante ne permettait pas de représenter la vrai valeur d'entrée, ce qui parfois déclenche une déviation sur la vrai identité de la description.\\[0.5cm]
-
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=\linewidth]{Images/w2vcnn.png}
+	\end{center}
+	\caption{Modélisation du modèle avec word2vect et cnn.}
+	\label{fig:rnn}
+\end{figure}
 J'ai utilisé une taille de vecteur de word2vect égal à 5, parce que premièrement, mon corpus de données n'est pas assez grand, alors je vais économiser la mémoire, et deuxièmement pour minimiser la pertes de données au niveau de la fonction softmax.\\
 La precision finale est égale à 80\%, c'est bien meilleur que les deux approches discutées au paravent.
 

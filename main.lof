@@ -1,32 +1,33 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Processus scrum\relax }}{6}{figure.caption.30}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces planification pr\IeC {\'e}visionnelle\relax }}{9}{figure.caption.35}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Processus scrum\relax }}{6}{figure.caption.26}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces planification pr\IeC {\'e}visionnelle\relax }}{9}{figure.caption.31}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Le Backlog du Produit\relax }}{10}{figure.caption.38}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Le Backlog du Produit\relax }}{10}{figure.caption.34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Le Backlog du Sprint 0\relax }}{12}{figure.caption.43}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de cas d'utilisation\relax }}{13}{figure.caption.46}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de classe\relax }}{14}{figure.caption.48}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de s\IeC {\'e}quence\relax }}{15}{figure.caption.50}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de d\IeC {\'e}ploiement\relax }}{16}{figure.caption.52}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemple de donn\IeC {\'e}es\relax }}{19}{figure.caption.59}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces google cloud big table\relax }}{20}{figure.caption.61}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Le Backlog du Sprint 0\relax }}{12}{figure.caption.39}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de cas d'utilisation\relax }}{13}{figure.caption.42}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de classe\relax }}{14}{figure.caption.44}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de s\IeC {\'e}quence\relax }}{15}{figure.caption.46}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de d\IeC {\'e}ploiement\relax }}{16}{figure.caption.48}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemple de donn\IeC {\'e}es\relax }}{19}{figure.caption.55}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces google cloud big table\relax }}{20}{figure.caption.57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Le Backlog du Sprint 1\relax }}{22}{figure.caption.68}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Sch\IeC {\'e}ma d'un r\IeC {\'e}seau de neurones r\IeC {\'e}currents \IeC {\`a} une unit\IeC {\'e} reliant l'entr\IeC {\'e}e et la sortie du r\IeC {\'e}seau. A droite la version \IeC {<<} d\IeC {\'e}pli\IeC {\'e}e \IeC {>>} de la structure.\relax }}{23}{figure.caption.71}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces La structure du reseaux neuronal ,r\IeC {\'e}aliser par cnn.\relax }}{24}{figure.caption.73}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces La structure du r\IeC {\'e}seaux neuronal, structure des couches de convolutions.\relax }}{24}{figure.caption.74}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Architecture des couches du r\IeC {\'e}seaux neuronal.\relax }}{25}{figure.caption.75}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Graphe qui repr\IeC {\'e}sente les \IeC {\'e}tapes du traitement du mod\IeC {\`e}le.\relax }}{27}{figure.caption.76}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphe qui repr\IeC {\'e}sente les donn\IeC {\'e}es perdues, du reseaux CNN/RNN.\relax }}{27}{figure.caption.77}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphe qui repr\IeC {\'e}sente la pr\IeC {\'e}cision, du reseaux CNN/RNN\relax }}{28}{figure.caption.78}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Le Backlog du Sprint 1\relax }}{23}{figure.caption.64}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Sch\IeC {\'e}ma d'un r\IeC {\'e}seau de neurones r\IeC {\'e}currents \IeC {\`a} une unit\IeC {\'e} reliant l'entr\IeC {\'e}e et la sortie du r\IeC {\'e}seau. A droite la version \IeC {<<} d\IeC {\'e}pli\IeC {\'e}e \IeC {>>} de la structure.\relax }}{24}{figure.caption.67}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces La structure du reseaux neuronal ,r\IeC {\'e}aliser par cnn.\relax }}{25}{figure.caption.69}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces La structure du r\IeC {\'e}seaux neuronal, structure des couches de convolutions.\relax }}{25}{figure.caption.70}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Architecture des couches du r\IeC {\'e}seaux neuronal.\relax }}{26}{figure.caption.71}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Graphe qui repr\IeC {\'e}sente les \IeC {\'e}tapes du traitement du mod\IeC {\`e}le.\relax }}{28}{figure.caption.72}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphe qui repr\IeC {\'e}sente les donn\IeC {\'e}es perdues, du reseaux CNN/RNN.\relax }}{28}{figure.caption.73}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphe qui repr\IeC {\'e}sente la pr\IeC {\'e}cision, du reseaux CNN/RNN\relax }}{29}{figure.caption.74}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Le Backlog du Sprint 2\relax }}{29}{figure.caption.82}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Exemple d'un hyperplan pattern de SVM\relax }}{30}{figure.caption.85}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Repr\IeC {\'e}sentation d'un mod\IeC {\`e}le binaire SVM\relax }}{32}{figure.caption.87}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Repr\IeC {\'e}sentation globale du mod\IeC {\`e}le\relax }}{33}{figure.caption.88}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Graphe qui repr\IeC {\'e}sente les donn\IeC {\'e}es perdues, du multiClass-SVM.\relax }}{33}{figure.caption.89}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Graphe qui repr\IeC {\'e}sente la pr\IeC {\'e}cision, du multiClass-SVM.\relax }}{34}{figure.caption.90}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Le Backlog du Sprint 2\relax }}{30}{figure.caption.78}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Exemple d'un hyperplan pattern de SVM\relax }}{31}{figure.caption.81}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Repr\IeC {\'e}sentation d'un mod\IeC {\`e}le binaire SVM\relax }}{33}{figure.caption.83}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Repr\IeC {\'e}sentation globale du mod\IeC {\`e}le\relax }}{34}{figure.caption.84}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Graphe qui repr\IeC {\'e}sente les donn\IeC {\'e}es perdues, du multiClass-SVM.\relax }}{34}{figure.caption.85}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Graphe qui repr\IeC {\'e}sente la pr\IeC {\'e}cision, du multiClass-SVM.\relax }}{35}{figure.caption.86}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Le Backlog du Sprint 3\relax }}{35}{figure.caption.94}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Le Backlog du Sprint 3\relax }}{36}{figure.caption.90}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Mod\IeC {\'e}lisation du mod\IeC {\`e}le avec word2vect et cnn.\relax }}{38}{figure.caption.94}
 \addvspace {10\p@ }
