@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  18 JUN 2018 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  18 JUN 2018 12:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -1221,33 +1221,67 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen262
 \@vwid@roff=\dimen263
 ))
+("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpage
+s.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count155
+\calc@Bcount=\count156
+\calc@Adimen=\dimen264
+\calc@Bdimen=\dimen265
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count157
+\calc@Cskip=\skip69
+)
+("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.
+sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen266
+\AM@pageheight=\dimen267
+
+("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdfte
+x.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box48
+\AM@global@opts=\toks46
+\AM@toc@title=\toks47
+\c@AM@survey=\count158
+\AM@templatesizebox=\box49
+)
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
 ty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen264
-\extrarowheight=\dimen265
-\NC@list=\toks46
-\extratabsurround=\skip67
-\backup@length=\skip68
+\col@sep=\dimen268
+\extrarowheight=\dimen269
+\NC@list=\toks48
+\extratabsurround=\skip70
+\backup@length=\skip71
 )
-\TX@col@width=\dimen266
-\TX@old@table=\dimen267
-\TX@old@col=\dimen268
-\TX@target=\dimen269
-\TX@delta=\dimen270
-\TX@cols=\count155
-\TX@ftn=\toks47
+\TX@col@width=\dimen270
+\TX@old@table=\dimen271
+\TX@old@col=\dimen272
+\TX@target=\dimen273
+\TX@delta=\dimen274
+\TX@cols=\count159
+\TX@ftn=\toks49
 )
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count156
-\float@exts=\toks48
-\float@box=\box48
-\@float@everytoks=\toks49
-\@floatcapt=\box49
+\c@float@type=\count160
+\float@exts=\toks50
+\float@box=\box50
+\@float@everytoks=\toks51
+\@floatcapt=\box51
 )
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\generic\e-french\frenc
 h.sty"
@@ -1255,8 +1289,8 @@ h.sty"
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
 y"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks50
-\inpenc@posthook=\toks51
+\inpenc@prehook=\toks52
+\inpenc@posthook=\toks53
  ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -1582,7 +1616,7 @@ Package: french 2017/08/10 The e-french package /V6,01/
 -29- ***Attention*** : le moteur TeX en utilisation avec des fontes CM 
     (comme dans ce format TeX) est insuffisant pour la césure 
     des mots accentués (comme en français).
-\@FrDimen=\dimen271
+\@FrDimen=\dimen275
 
 -23- Extension : e-french V6,01 -- 10 ao\unhbox \voidb@x \bgroup \let \unhbox \
 voidb@x \setbox \@tempboxa \hbox {u\global \mathchardef \accent@spacefactor \sp
@@ -1629,164 +1663,164 @@ Package: expl3 2018-05-13 L3 programming layer (loader)
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-c
 ode.tex"
 Package: expl3 2018-05-13 L3 programming layer (code)
-\c_max_int=\count157
-\l_tmpa_int=\count158
-\l_tmpb_int=\count159
-\g_tmpa_int=\count160
-\g_tmpb_int=\count161
-\g__kernel_prg_map_int=\count162
-\c_log_iow=\count163
-\l_iow_line_count_int=\count164
-\l__iow_line_target_int=\count165
-\l__iow_one_indent_int=\count166
-\l__iow_indent_int=\count167
-\c_zero_dim=\dimen272
-\c_max_dim=\dimen273
-\l_tmpa_dim=\dimen274
-\l_tmpb_dim=\dimen275
-\g_tmpa_dim=\dimen276
-\g_tmpb_dim=\dimen277
-\c_zero_skip=\skip69
-\c_max_skip=\skip70
-\l_tmpa_skip=\skip71
-\l_tmpb_skip=\skip72
-\g_tmpa_skip=\skip73
-\g_tmpb_skip=\skip74
+\c_max_int=\count161
+\l_tmpa_int=\count162
+\l_tmpb_int=\count163
+\g_tmpa_int=\count164
+\g_tmpb_int=\count165
+\g__kernel_prg_map_int=\count166
+\c_log_iow=\count167
+\l_iow_line_count_int=\count168
+\l__iow_line_target_int=\count169
+\l__iow_one_indent_int=\count170
+\l__iow_indent_int=\count171
+\c_zero_dim=\dimen276
+\c_max_dim=\dimen277
+\l_tmpa_dim=\dimen278
+\l_tmpb_dim=\dimen279
+\g_tmpa_dim=\dimen280
+\g_tmpb_dim=\dimen281
+\c_zero_skip=\skip72
+\c_max_skip=\skip73
+\l_tmpa_skip=\skip74
+\l_tmpb_skip=\skip75
+\g_tmpa_skip=\skip76
+\g_tmpb_skip=\skip77
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count168
-\l__intarray_loop_int=\count169
-\c__intarray_sp_dim=\dimen278
-\g__intarray_font_int=\count170
-\c__fp_leading_shift_int=\count171
-\c__fp_middle_shift_int=\count172
-\c__fp_trailing_shift_int=\count173
-\c__fp_big_leading_shift_int=\count174
-\c__fp_big_middle_shift_int=\count175
-\c__fp_big_trailing_shift_int=\count176
-\c__fp_Bigg_leading_shift_int=\count177
-\c__fp_Bigg_middle_shift_int=\count178
-\c__fp_Bigg_trailing_shift_int=\count179
-\c__kernel_randint_max_int=\count180
-\g__fp_array_int=\count181
-\l__fp_array_loop_int=\count182
-\l__sort_length_int=\count183
-\l__sort_min_int=\count184
-\l__sort_top_int=\count185
-\l__sort_max_int=\count186
-\l__sort_true_max_int=\count187
-\l__sort_block_int=\count188
-\l__sort_begin_int=\count189
-\l__sort_end_int=\count190
-\l__sort_A_int=\count191
-\l__sort_B_int=\count192
-\l__sort_C_int=\count193
-\l__tl_analysis_normal_int=\count194
-\l__tl_analysis_index_int=\count195
-\l__tl_analysis_nesting_int=\count196
-\l__tl_analysis_type_int=\count197
-\l__regex_internal_a_int=\count198
-\l__regex_internal_b_int=\count199
-\l__regex_internal_c_int=\count266
-\l__regex_balance_int=\count267
-\l__regex_group_level_int=\count268
-\l__regex_mode_int=\count269
-\c__regex_cs_in_class_mode_int=\count270
-\c__regex_cs_mode_int=\count271
-\l__regex_catcodes_int=\count272
-\l__regex_default_catcodes_int=\count273
-\c__regex_catcode_D_int=\count274
-\c__regex_catcode_S_int=\count275
-\c__regex_catcode_L_int=\count276
-\c__regex_catcode_O_int=\count277
-\c__regex_catcode_A_int=\count278
-\c__regex_all_catcodes_int=\count279
-\l__regex_show_lines_int=\count280
-\l__regex_min_state_int=\count281
-\l__regex_max_state_int=\count282
-\l__regex_left_state_int=\count283
-\l__regex_right_state_int=\count284
-\l__regex_capturing_group_int=\count285
-\l__regex_min_pos_int=\count286
-\l__regex_max_pos_int=\count287
-\l__regex_curr_pos_int=\count288
-\l__regex_start_pos_int=\count289
-\l__regex_success_pos_int=\count290
-\l__regex_curr_char_int=\count291
-\l__regex_curr_catcode_int=\count292
-\l__regex_last_char_int=\count293
-\l__regex_case_changed_char_int=\count294
-\l__regex_curr_state_int=\count295
-\l__regex_step_int=\count296
-\l__regex_min_active_int=\count297
-\l__regex_max_active_int=\count298
-\l__regex_replacement_csnames_int=\count299
-\l__regex_match_count_int=\count300
-\l__regex_min_submatch_int=\count301
-\l__regex_submatch_int=\count302
-\l__regex_zeroth_submatch_int=\count303
-\g__regex_trace_regex_int=\count304
-\c_empty_box=\box50
-\l_tmpa_box=\box51
-\l_tmpb_box=\box52
-\g_tmpa_box=\box53
-\g_tmpb_box=\box54
-\l__box_top_dim=\dimen279
-\l__box_bottom_dim=\dimen280
-\l__box_left_dim=\dimen281
-\l__box_right_dim=\dimen282
-\l__box_top_new_dim=\dimen283
-\l__box_bottom_new_dim=\dimen284
-\l__box_left_new_dim=\dimen285
-\l__box_right_new_dim=\dimen286
-\l__box_internal_box=\box55
-\l__coffin_internal_box=\box56
-\l__coffin_internal_dim=\dimen287
-\l__coffin_offset_x_dim=\dimen288
-\l__coffin_offset_y_dim=\dimen289
-\l__coffin_x_dim=\dimen290
-\l__coffin_y_dim=\dimen291
-\l__coffin_x_prime_dim=\dimen292
-\l__coffin_y_prime_dim=\dimen293
-\c_empty_coffin=\box57
-\l__coffin_aligned_coffin=\box58
-\l__coffin_aligned_internal_coffin=\box59
-\l_tmpa_coffin=\box60
-\l_tmpb_coffin=\box61
-\l__coffin_display_coffin=\box62
-\l__coffin_display_coord_coffin=\box63
-\l__coffin_display_pole_coffin=\box64
-\l__coffin_display_offset_dim=\dimen294
-\l__coffin_display_x_dim=\dimen295
-\l__coffin_display_y_dim=\dimen296
+\l_keys_choice_int=\count172
+\l__intarray_loop_int=\count173
+\c__intarray_sp_dim=\dimen282
+\g__intarray_font_int=\count174
+\c__fp_leading_shift_int=\count175
+\c__fp_middle_shift_int=\count176
+\c__fp_trailing_shift_int=\count177
+\c__fp_big_leading_shift_int=\count178
+\c__fp_big_middle_shift_int=\count179
+\c__fp_big_trailing_shift_int=\count180
+\c__fp_Bigg_leading_shift_int=\count181
+\c__fp_Bigg_middle_shift_int=\count182
+\c__fp_Bigg_trailing_shift_int=\count183
+\c__kernel_randint_max_int=\count184
+\g__fp_array_int=\count185
+\l__fp_array_loop_int=\count186
+\l__sort_length_int=\count187
+\l__sort_min_int=\count188
+\l__sort_top_int=\count189
+\l__sort_max_int=\count190
+\l__sort_true_max_int=\count191
+\l__sort_block_int=\count192
+\l__sort_begin_int=\count193
+\l__sort_end_int=\count194
+\l__sort_A_int=\count195
+\l__sort_B_int=\count196
+\l__sort_C_int=\count197
+\l__tl_analysis_normal_int=\count198
+\l__tl_analysis_index_int=\count199
+\l__tl_analysis_nesting_int=\count266
+\l__tl_analysis_type_int=\count267
+\l__regex_internal_a_int=\count268
+\l__regex_internal_b_int=\count269
+\l__regex_internal_c_int=\count270
+\l__regex_balance_int=\count271
+\l__regex_group_level_int=\count272
+\l__regex_mode_int=\count273
+\c__regex_cs_in_class_mode_int=\count274
+\c__regex_cs_mode_int=\count275
+\l__regex_catcodes_int=\count276
+\l__regex_default_catcodes_int=\count277
+\c__regex_catcode_D_int=\count278
+\c__regex_catcode_S_int=\count279
+\c__regex_catcode_L_int=\count280
+\c__regex_catcode_O_int=\count281
+\c__regex_catcode_A_int=\count282
+\c__regex_all_catcodes_int=\count283
+\l__regex_show_lines_int=\count284
+\l__regex_min_state_int=\count285
+\l__regex_max_state_int=\count286
+\l__regex_left_state_int=\count287
+\l__regex_right_state_int=\count288
+\l__regex_capturing_group_int=\count289
+\l__regex_min_pos_int=\count290
+\l__regex_max_pos_int=\count291
+\l__regex_curr_pos_int=\count292
+\l__regex_start_pos_int=\count293
+\l__regex_success_pos_int=\count294
+\l__regex_curr_char_int=\count295
+\l__regex_curr_catcode_int=\count296
+\l__regex_last_char_int=\count297
+\l__regex_case_changed_char_int=\count298
+\l__regex_curr_state_int=\count299
+\l__regex_step_int=\count300
+\l__regex_min_active_int=\count301
+\l__regex_max_active_int=\count302
+\l__regex_replacement_csnames_int=\count303
+\l__regex_match_count_int=\count304
+\l__regex_min_submatch_int=\count305
+\l__regex_submatch_int=\count306
+\l__regex_zeroth_submatch_int=\count307
+\g__regex_trace_regex_int=\count308
+\c_empty_box=\box52
+\l_tmpa_box=\box53
+\l_tmpb_box=\box54
+\g_tmpa_box=\box55
+\g_tmpb_box=\box56
+\l__box_top_dim=\dimen283
+\l__box_bottom_dim=\dimen284
+\l__box_left_dim=\dimen285
+\l__box_right_dim=\dimen286
+\l__box_top_new_dim=\dimen287
+\l__box_bottom_new_dim=\dimen288
+\l__box_left_new_dim=\dimen289
+\l__box_right_new_dim=\dimen290
+\l__box_internal_box=\box57
+\l__coffin_internal_box=\box58
+\l__coffin_internal_dim=\dimen291
+\l__coffin_offset_x_dim=\dimen292
+\l__coffin_offset_y_dim=\dimen293
+\l__coffin_x_dim=\dimen294
+\l__coffin_y_dim=\dimen295
+\l__coffin_x_prime_dim=\dimen296
+\l__coffin_y_prime_dim=\dimen297
+\c_empty_coffin=\box59
+\l__coffin_aligned_coffin=\box60
+\l__coffin_aligned_internal_coffin=\box61
+\l_tmpa_coffin=\box62
+\l_tmpb_coffin=\box63
+\l__coffin_display_coffin=\box64
+\l__coffin_display_coord_coffin=\box65
+\l__coffin_display_pole_coffin=\box66
+\l__coffin_display_offset_dim=\dimen298
+\l__coffin_display_x_dim=\dimen299
+\l__coffin_display_y_dim=\dimen300
 \g__file_internal_ior=\read3
-\l__coffin_bounding_shift_dim=\dimen297
-\l__coffin_left_corner_dim=\dimen298
-\l__coffin_right_corner_dim=\dimen299
-\l__coffin_bottom_corner_dim=\dimen300
-\l__coffin_top_corner_dim=\dimen301
-\l__coffin_scaled_total_height_dim=\dimen302
-\l__coffin_scaled_width_dim=\dimen303
-\l__seq_internal_a_int=\count305
-\l__seq_internal_b_int=\count306
+\l__coffin_bounding_shift_dim=\dimen301
+\l__coffin_left_corner_dim=\dimen302
+\l__coffin_right_corner_dim=\dimen303
+\l__coffin_bottom_corner_dim=\dimen304
+\l__coffin_top_corner_dim=\dimen305
+\l__coffin_scaled_total_height_dim=\dimen306
+\l__coffin_scaled_width_dim=\dimen307
+\l__seq_internal_a_int=\count309
+\l__seq_internal_b_int=\count310
 )
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmo
 de.def"
 File: l3pdfmode.def 2018-05-13 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count307
+\l__driver_color_stack_int=\count311
 ))
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xpars
 e\xparse.sty"
 Package: xparse 2018-05-12 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count308
-\g__xparse_grabber_int=\count309
-\l__xparse_m_args_int=\count310
-\l__xparse_mandatory_args_int=\count311
-\l__xparse_v_nesting_int=\count312
+\l__xparse_current_arg_int=\count312
+\g__xparse_grabber_int=\count313
+\l__xparse_m_args_int=\count314
+\l__xparse_mandatory_args_int=\count315
+\l__xparse_v_nesting_int=\count316
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -1794,46 +1828,46 @@ Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 s2e\l3keys2e.sty"
 Package: l3keys2e 2018-05-12 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box65
-\l__siunitx_tmp_dim=\dimen304
-\l__siunitx_tmp_int=\count313
-\l__siunitx_number_mantissa_length_int=\count314
-\l__siunitx_number_uncert_length_int=\count315
-\l__siunitx_round_int=\count316
-\l__siunitx_process_decimal_int=\count317
-\l__siunitx_process_uncertainty_int=\count318
-\l__siunitx_process_fixed_int=\count319
-\l__siunitx_process_integer_min_int=\count320
-\l__siunitx_process_precision_int=\count321
-\l__siunitx_group_min_int=\count322
-\l__siunitx_angle_marker_box=\box66
-\l__siunitx_angle_unit_box=\box67
-\l__siunitx_angle_marker_dim=\dimen305
-\l__siunitx_angle_unit_dim=\dimen306
-\l__siunitx_unit_int=\count323
-\l__siunitx_unit_denominator_int=\count324
-\l__siunitx_unit_numerator_int=\count325
-\l__siunitx_unit_prefix_int=\count326
-\l__siunitx_unit_prefix_base_int=\count327
-\l__siunitx_unit_prefix_gram_int=\count328
-\l__siunitx_number_product_int=\count329
-\c__siunitx_one_fill_skip=\skip75
-\l__siunitx_table_unit_align_skip=\skip76
-\l__siunitx_table_exponent_dim=\dimen307
-\l__siunitx_table_integer_dim=\dimen308
-\l__siunitx_table_mantissa_dim=\dimen309
-\l__siunitx_table_marker_dim=\dimen310
-\l__siunitx_table_result_dim=\dimen311
-\l__siunitx_table_uncert_dim=\dimen312
-\l__siunitx_table_fill_pre_dim=\dimen313
-\l__siunitx_table_fill_post_dim=\dimen314
-\l__siunitx_table_fill_mid_dim=\dimen315
-\l__siunitx_table_pre_box=\box68
-\l__siunitx_table_post_box=\box69
-\l__siunitx_table_mantissa_box=\box70
-\l__siunitx_table_result_box=\box71
-\l__siunitx_table_number_align_skip=\skip77
-\l__siunitx_table_text_align_skip=\skip78
+\l__siunitx_tmp_box=\box67
+\l__siunitx_tmp_dim=\dimen308
+\l__siunitx_tmp_int=\count317
+\l__siunitx_number_mantissa_length_int=\count318
+\l__siunitx_number_uncert_length_int=\count319
+\l__siunitx_round_int=\count320
+\l__siunitx_process_decimal_int=\count321
+\l__siunitx_process_uncertainty_int=\count322
+\l__siunitx_process_fixed_int=\count323
+\l__siunitx_process_integer_min_int=\count324
+\l__siunitx_process_precision_int=\count325
+\l__siunitx_group_min_int=\count326
+\l__siunitx_angle_marker_box=\box68
+\l__siunitx_angle_unit_box=\box69
+\l__siunitx_angle_marker_dim=\dimen309
+\l__siunitx_angle_unit_dim=\dimen310
+\l__siunitx_unit_int=\count327
+\l__siunitx_unit_denominator_int=\count328
+\l__siunitx_unit_numerator_int=\count329
+\l__siunitx_unit_prefix_int=\count330
+\l__siunitx_unit_prefix_base_int=\count331
+\l__siunitx_unit_prefix_gram_int=\count332
+\l__siunitx_number_product_int=\count333
+\c__siunitx_one_fill_skip=\skip78
+\l__siunitx_table_unit_align_skip=\skip79
+\l__siunitx_table_exponent_dim=\dimen311
+\l__siunitx_table_integer_dim=\dimen312
+\l__siunitx_table_mantissa_dim=\dimen313
+\l__siunitx_table_marker_dim=\dimen314
+\l__siunitx_table_result_dim=\dimen315
+\l__siunitx_table_uncert_dim=\dimen316
+\l__siunitx_table_fill_pre_dim=\dimen317
+\l__siunitx_table_fill_post_dim=\dimen318
+\l__siunitx_table_fill_mid_dim=\dimen319
+\l__siunitx_table_pre_box=\box70
+\l__siunitx_table_post_box=\box71
+\l__siunitx_table_mantissa_box=\box72
+\l__siunitx_table_result_box=\box73
+\l__siunitx_table_number_align_skip=\skip80
+\l__siunitx_table_text_align_skip=\skip81
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1994,34 +2028,34 @@ LaTeX Warning: Label `fig:rnn' multiply defined.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it (voir le source, ligne 6
-3).
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
-LaTeX Font Info:    Checking defaults for T1/lmr/m/n (voir le source, ligne 63)
+4).
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
+LaTeX Font Info:    Checking defaults for T1/lmr/m/n (voir le source, ligne 64)
 .
 LaTeX Font Info:    Try loading font information for T1+lmr (voir le source, li
-gne 63).
+gne 64).
  ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n (voir le source, ligne 63
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n (voir le source, ligne 64
 ).
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n (voir le source, ligne 6
-3).
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
+4).
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n (voir le source, ligne 6
-3).
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
-LaTeX Font Info:    Checking defaults for U/cmr/m/n (voir le source, ligne 63).
+4).
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
+LaTeX Font Info:    Checking defaults for U/cmr/m/n (voir le source, ligne 64).
 
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n (voir le source, ligne 63
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n (voir le source, ligne 64
 ).
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n (voir le source, ligne 63)
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n (voir le source, ligne 64)
 .
-LaTeX Font Info:    ... okay (voir le source, ligne 63).
+LaTeX Font Info:    ... okay (voir le source, ligne 64).
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: frenchle/pro package is loaded.
 Package caption Info: float package is loaded.
@@ -2039,21 +2073,21 @@ Package caption Info: End \AtBeginDocument code.
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
 mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen316
-\scratchbox=\box72
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen317
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count334
+\scratchdimen=\dimen320
+\scratchbox=\box74
+\nofMPsegments=\count335
+\nofMParguments=\count336
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen321
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
+\everyMPtoPDFconversion=\toks55
 )
-\c@lstlisting=\count336
-\AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON (voir le source, ligne 63).
+\c@lstlisting=\count340
+\AtBeginShipoutBox=\box75
+Package hyperref Info: Link coloring ON (voir le source, ligne 64).
 
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
 .sty"
@@ -2063,16 +2097,22 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count337
+\c@section@level=\count341
 )
-LaTeX Info: Redefining \ref (voir le source, ligne 63).
-LaTeX Info: Redefining \pageref (voir le source, ligne 63).
-LaTeX Info: Redefining \nameref (voir le source, ligne 63).
+LaTeX Info: Redefining \ref (voir le source, ligne 64).
+LaTeX Info: Redefining \pageref (voir le source, ligne 64).
+LaTeX Info: Redefining \nameref (voir le source, ligne 64).
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  ABD: EveryShipout initializing macros
+("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflsca
+pe.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex (voir le source, ligne 81)
+.
+)
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -2156,37 +2196,37 @@ Dictionary: translator-basic-dictionary, Language: English
 abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\@FrCount=\count338
+\@FrCount=\count342
 
 
  french.sty : -48- Lecture du fichier de configuration de e-french (\`a la lign
-e 63).
+e 64).
 
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\generic\e-french\frenc
 h.cfg")
 LaTeX Font Info:    Try loading font information for U+msa (voir le source, lig
-ne 63).
+ne 64).
 
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 "
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb (voir le source, lig
-ne 63).
+ne 64).
 
 ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy (voir le source, li
-gne 63).
+gne 64).
  ("C:\Users\Souhail\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<./Images/logo.png, id=233, 171.64125pt x 75.28125pt>
+<./Images/logo.png, id=245, 171.64125pt x 75.28125pt>
 File: ./Images/logo.png Graphic file (type png)
 <use ./Images/logo.png>
-Package pdftex.def Info: ./Images/logo.png  used (voir le source, ligne 120).
+Package pdftex.def Info: ./Images/logo.png  used (voir le source, ligne 121).
 (pdftex.def)             Requested size: 170.71652pt x 74.87555pt.
  [1
 
@@ -2199,7 +2239,7 @@ logo.png>] [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
  []
 
@@ -2266,7 +2306,7 @@ r ap-proche de tra-vail, gr^ace a des experiences
 [3
 
 ] [4] [5] [6]
-<Images/scrum.png, id=426, 812.03375pt x 316.18124pt>
+<Images/scrum.png, id=441, 812.03375pt x 316.18124pt>
 File: Images/scrum.png Graphic file (type png)
 <use Images/scrum.png>
 Package pdftex.def Info: Images/scrum.png  used (voir le source, ligne 92).
@@ -2329,7 +2369,7 @@ Overfull \hbox (10.78322pt too wide) in paragraph at lines 55--64
 [][] 
  []
 
-<Images/use_case_sanadtech.png, id=452, 746.3082pt x 363.2772pt>
+<Images/use_case_sanadtech.png, id=467, 746.3082pt x 363.2772pt>
 File: Images/use_case_sanadtech.png Graphic file (type png)
 <use Images/use_case_sanadtech.png>
 Package pdftex.def Info: Images/use_case_sanadtech.png  used (voir le source, l
@@ -2343,7 +2383,7 @@ Overfull \hbox (76.27446pt too wide) in paragraph at lines 71--72
 [13
 
 ]
-<Images/Class_diagram.png, id=457, 596.2275pt x 361.35pt>
+<Images/Class_diagram.png, id=472, 596.2275pt x 361.35pt>
 File: Images/Class_diagram.png Graphic file (type png)
 <use Images/Class_diagram.png>
 Package pdftex.def Info: Images/Class_diagram.png  used (voir le source, ligne 
@@ -2366,7 +2406,7 @@ Overfull \hbox (5.5163pt too wide) in paragraph at lines 87--91
 fferentes
  []
 
-<Images/Sequence_Diagram_Sanadtech.png, id=462, 914.66719pt x 603.4545pt>
+<Images/Sequence_Diagram_Sanadtech.png, id=477, 914.66719pt x 603.4545pt>
 File: Images/Sequence_Diagram_Sanadtech.png Graphic file (type png)
 <use Images/Sequence_Diagram_Sanadtech.png>
 Package pdftex.def Info: Images/Sequence_Diagram_Sanadtech.png  used (voir le s
@@ -2383,21 +2423,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--103
  []
 
 [16 <./Images/Sequence_Diagram_Sanadtech.png>]
-<Images/Deployment_Diagram_Sanadtech.png, id=472, 826.0461pt x 418.2024pt>
+<Images/Deployment_Diagram_Sanadtech.png, id=487, 826.0461pt x 418.2024pt>
 File: Images/Deployment_Diagram_Sanadtech.png Graphic file (type png)
 <use Images/Deployment_Diagram_Sanadtech.png>
 Package pdftex.def Info: Images/Deployment_Diagram_Sanadtech.png  used (voir le
  source, ligne 107).
 (pdftex.def)             Requested size: 453.60808pt x 229.64828pt.
  [17 <./Images/Deployment_Diagram_Sanadtech.png>] [18] [19]
-<Images/donnees_contenu.png, id=487, 730.98094pt x 375.65344pt>
+<Images/donnees_contenu.png, id=502, 730.98094pt x 375.65344pt>
 File: Images/donnees_contenu.png Graphic file (type png)
 <use Images/donnees_contenu.png>
 Package pdftex.def Info: Images/donnees_contenu.png  used (voir le source, lign
 e 149).
 (pdftex.def)             Requested size: 453.60808pt x 233.10907pt.
  [20 <./Images/donnees_contenu.png>]
-<Images/google-cloud-bigtable.png, id=493, 600.2425pt x 338.26375pt>
+<Images/google-cloud-bigtable.png, id=508, 600.2425pt x 338.26375pt>
 File: Images/google-cloud-bigtable.png Graphic file (type png)
 <use Images/google-cloud-bigtable.png>
 Package pdftex.def Info: Images/google-cloud-bigtable.png  used (voir le source
@@ -2427,12 +2467,12 @@ Overfull \hbox (10.78322pt too wide) in paragraph at lines 198--205
 [24
 
 ]
-<Images/rnn.png, id=511, 803.0pt x 268.00125pt>
+<Images/rnn.png, id=526, 803.0pt x 268.00125pt>
 File: Images/rnn.png Graphic file (type png)
 <use Images/rnn.png>
 Package pdftex.def Info: Images/rnn.png  used (voir le source, ligne 222).
 (pdftex.def)             Requested size: 401.49902pt x 134.00029pt.
-<Images/cnn.png, id=512, 770.88pt x 310.91156pt>
+<Images/cnn.png, id=527, 770.88pt x 310.91156pt>
 File: Images/cnn.png Graphic file (type png)
 <use Images/cnn.png>
 Package pdftex.def Info: Images/cnn.png  used (voir le source, ligne 234).
@@ -2442,7 +2482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-<Images/cnn1.png, id=518, 1027.84pt x 526.96875pt>
+<Images/cnn1.png, id=533, 1027.84pt x 526.96875pt>
 File: Images/cnn1.png Graphic file (type png)
 <use Images/cnn1.png>
 Package pdftex.def Info: Images/cnn1.png  used (voir le source, ligne 244).
@@ -2453,7 +2493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
  []
 
 [26 <./Images/cnn.png> <./Images/cnn1.png>]
-<Images/cnn2.png, id=525, 1023.825pt x 522.95375pt>
+<Images/cnn2.png, id=540, 1023.825pt x 522.95375pt>
 File: Images/cnn2.png Graphic file (type png)
 <use Images/cnn2.png>
 Package pdftex.def Info: Images/cnn2.png  used (voir le source, ligne 256).
@@ -2473,18 +2513,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-<Images/cnn3.png, id=532, 1027.84pt x 560.0925pt>
+<Images/cnn3.png, id=547, 1027.84pt x 560.0925pt>
 File: Images/cnn3.png Graphic file (type png)
 <use Images/cnn3.png>
 Package pdftex.def Info: Images/cnn3.png  used (voir le source, ligne 276).
 (pdftex.def)             Requested size: 453.60808pt x 247.18498pt.
 [28]
-<Images/cnn4.png, id=537, 770.88pt x 260.975pt>
+<Images/cnn4.png, id=552, 770.88pt x 260.975pt>
 File: Images/cnn4.png Graphic file (type png)
 <use Images/cnn4.png>
 Package pdftex.def Info: Images/cnn4.png  used (voir le source, ligne 287).
 (pdftex.def)             Requested size: 453.60808pt x 153.56375pt.
-<Images/cnn5.png, id=538, 770.88pt x 262.9825pt>
+<Images/cnn5.png, id=553, 770.88pt x 262.9825pt>
 File: Images/cnn5.png Graphic file (type png)
 <use Images/cnn5.png>
 Package pdftex.def Info: Images/cnn5.png  used (voir le source, ligne 295).
@@ -2500,7 +2540,7 @@ Overfull \hbox (10.78322pt too wide) in paragraph at lines 316--323
 [][] 
  []
 
-<Images/ex_svm.png, id=551, 358.33875pt x 276.28218pt>
+<Images/ex_svm.png, id=566, 358.33875pt x 276.28218pt>
 File: Images/ex_svm.png Graphic file (type png)
 <use Images/ex_svm.png>
 Package pdftex.def Info: Images/ex_svm.png  used (voir le source, ligne 332).
@@ -2519,14 +2559,14 @@ ou-voir d'ap-pren-tis-sage est independante
  []
 
 [32 <./Images/ex_svm.png>]
-<Images/svm_binaire.png, id=562, 358.33875pt x 276.28218pt>
+<Images/svm_binaire.png, id=577, 358.33875pt x 276.28218pt>
 File: Images/svm_binaire.png Graphic file (type png)
 <use Images/svm_binaire.png>
 Package pdftex.def Info: Images/svm_binaire.png  used (voir le source, ligne 37
 1).
 (pdftex.def)             Requested size: 250.83542pt x 193.3962pt.
  [33]
-<Images/svm_rep.png, id=568, 358.33875pt x 276.28218pt>
+<Images/svm_rep.png, id=583, 358.33875pt x 276.28218pt>
 File: Images/svm_rep.png Graphic file (type png)
 <use Images/svm_rep.png>
 Package pdftex.def Info: Images/svm_rep.png  used (voir le source, ligne 379).
@@ -2553,7 +2593,7 @@ Overfull \hbox (10.78322pt too wide) in paragraph at lines 421--428
 [37
 
 ]
-<Images/w2vcnn.png, id=586, 560.8453pt x 304.13625pt>
+<Images/w2vcnn.png, id=601, 560.8453pt x 304.13625pt>
 File: Images/w2vcnn.png Graphic file (type png)
 <use Images/w2vcnn.png>
 Package pdftex.def Info: Images/w2vcnn.png  used (voir le source, ligne 442).
@@ -2564,14 +2604,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 438--446
  []
 
 [38]
-<Images/w2vcnnloss.png, id=591, 746.79pt x 215.80624pt>
+<Images/w2vcnnloss.png, id=606, 746.79pt x 215.80624pt>
 File: Images/w2vcnnloss.png Graphic file (type png)
 <use Images/w2vcnnloss.png>
 Package pdftex.def Info: Images/w2vcnnloss.png  used (voir le source, ligne 455
 ).
 (pdftex.def)             Requested size: 453.60808pt x 131.0818pt.
  [39 <./Images/w2vcnn.png>]
-<Images/w2vcnnaccury.png, id=596, 944.52875pt x 447.6725pt>
+<Images/w2vcnnaccury.png, id=611, 944.52875pt x 447.6725pt>
 File: Images/w2vcnnaccury.png Graphic file (type png)
 <use Images/w2vcnnaccury.png>
 Package pdftex.def Info: Images/w2vcnnaccury.png  used (voir le source, ligne 4
@@ -2579,7 +2619,7 @@ Package pdftex.def Info: Images/w2vcnnaccury.png  used (voir le source, ligne 4
 (pdftex.def)             Requested size: 453.60808pt x 214.99648pt.
 ) (Chapters/Conclusion.tex [40 <./Images/w2vcnnloss.png> <./Images/w2vcnnaccury
 .png>])
-Overfull \hbox (8.45328pt too wide) in paragraph at lines 3--314
+Overfull \hbox (8.45328pt too wide) in paragraph at lines 3--315
 []\OT1/cmr/m/n/10.95 Pour conclure, j'ai ef-fectue mon stage de deuxieme ann
 ee de cycle d'ingenierie lo-gi-ciel et integration
  []
@@ -2587,14 +2627,19 @@ ee de cycle d'ingenierie lo-gi-ciel et integration
 [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
 
-Overfull \hbox (15.6913pt too wide) in paragraph at lines 328--329
+Overfull \hbox (15.6913pt too wide) in paragraph at lines 326--327
 \OT1/cmr/m/n/10.95 http://users.isr.ist.utl.pt/ wurmd/ Livros/school/Bishop%20-
 %20Pattern%20Recognition %20And
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
  []
 
 
@@ -2622,57 +2667,764 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-
- []
-
-[42
+(Appendices/AppendixA.tex
+<annexe1.pdf, id=622, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf>
+Package pdftex.def Info: annexe1.pdf  used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf>
+Package pdftex.def Info: annexe1.pdf  used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<annexe1.pdf, id=625, page=1, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 1>
+Package pdftex.def Info: annexe1.pdf , page1 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 453.60808pt x 641.5333pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 1>
+Package pdftex.def Info: annexe1.pdf , page1 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+ [42
 
 ]
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 1>
+Package pdftex.def Info: annexe1.pdf , page1 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 1>
+Package pdftex.def Info: annexe1.pdf , page1 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+
+Annexe A.
+------------------------------------------------------------------------------
+ A CNN
+------------------------------------------------------------------------------
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 1>
+Package pdftex.def Info: annexe1.pdf , page1 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+[43
+
+ <./annexe1.pdf>]
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf>
+Package pdftex.def Info: annexe1.pdf  used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf>
+Package pdftex.def Info: annexe1.pdf  used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<annexe1.pdf, id=678, page=2, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 2>
+Package pdftex.def Info: annexe1.pdf , page2 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 453.60808pt x 641.5333pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 2>
+Package pdftex.def Info: annexe1.pdf , page2 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 2>
+Package pdftex.def Info: annexe1.pdf , page2 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 2>
+Package pdftex.def Info: annexe1.pdf , page2 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 2>
+Package pdftex.def Info: annexe1.pdf , page2 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+ [44 <./annexe1.pdf>]
+<annexe1.pdf, id=718, page=3, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 3>
+Package pdftex.def Info: annexe1.pdf , page3 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 3>
+Package pdftex.def Info: annexe1.pdf , page3 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 3>
+Package pdftex.def Info: annexe1.pdf , page3 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+ [45 <./annexe1.pdf>]
+<annexe1.pdf, id=743, page=4, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 4>
+Package pdftex.def Info: annexe1.pdf , page4 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 4>
+Package pdftex.def Info: annexe1.pdf , page4 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 4>
+Package pdftex.def Info: annexe1.pdf , page4 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+ [46 <./annexe1.pdf>]
+<annexe1.pdf, id=753, page=5, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 5>
+Package pdftex.def Info: annexe1.pdf , page5 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 5>
+Package pdftex.def Info: annexe1.pdf , page5 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 5>
+Package pdftex.def Info: annexe1.pdf , page5 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+ [47 <./annexe1.pdf>]
+<annexe1.pdf, id=764, page=6, 597.50829pt x 845.0471pt>
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 6>
+Package pdftex.def Info: annexe1.pdf , page6 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 6>
+Package pdftex.def Info: annexe1.pdf , page6 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+File: annexe1.pdf Graphic file (type pdf)
+<use annexe1.pdf, page 6>
+Package pdftex.def Info: annexe1.pdf , page6 used (voir le source, ligne 6).
+(pdftex.def)             Requested size: 788.50368pt x 1115.16907pt.
+ [48 <./annexe1.pdf>]) (Appendices/AppendixB.tex
+<annexe2.pdf, id=769, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf>
+Package pdftex.def Info: annexe2.pdf  used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf>
+Package pdftex.def Info: annexe2.pdf  used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<annexe2.pdf, id=772, page=1, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 1>
+Package pdftex.def Info: annexe2.pdf , page1 used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 453.60808pt x 587.03131pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 1>
+Package pdftex.def Info: annexe2.pdf , page1 used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 1>
+Package pdftex.def Info: annexe2.pdf , page1 used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 1>
+Package pdftex.def Info: annexe2.pdf , page1 used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+
+Annexe B.
+------------------------------------------------------------------------------
+ B SVM
+------------------------------------------------------------------------------
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 1>
+Package pdftex.def Info: annexe2.pdf , page1 used (voir le source, ligne 4).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+[49
+
+ <./annexe2.pdf>]
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf>
+Package pdftex.def Info: annexe2.pdf  used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf>
+Package pdftex.def Info: annexe2.pdf  used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<annexe2.pdf, id=805, page=2, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 2>
+Package pdftex.def Info: annexe2.pdf , page2 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 453.60808pt x 587.03131pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 2>
+Package pdftex.def Info: annexe2.pdf , page2 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 2>
+Package pdftex.def Info: annexe2.pdf , page2 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 2>
+Package pdftex.def Info: annexe2.pdf , page2 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 2>
+Package pdftex.def Info: annexe2.pdf , page2 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [50 <./annexe2.pdf>]
+<annexe2.pdf, id=819, page=3, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 3>
+Package pdftex.def Info: annexe2.pdf , page3 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 3>
+Package pdftex.def Info: annexe2.pdf , page3 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 3>
+Package pdftex.def Info: annexe2.pdf , page3 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [51 <./annexe2.pdf>]
+<annexe2.pdf, id=824, page=4, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 4>
+Package pdftex.def Info: annexe2.pdf , page4 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 4>
+Package pdftex.def Info: annexe2.pdf , page4 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 4>
+Package pdftex.def Info: annexe2.pdf , page4 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [52 <./annexe2.pdf>]
+<annexe2.pdf, id=834, page=5, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 5>
+Package pdftex.def Info: annexe2.pdf , page5 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 5>
+Package pdftex.def Info: annexe2.pdf , page5 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 5>
+Package pdftex.def Info: annexe2.pdf , page5 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [53 <./annexe2.pdf>]
+<annexe2.pdf, id=845, page=6, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 6>
+Package pdftex.def Info: annexe2.pdf , page6 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 6>
+Package pdftex.def Info: annexe2.pdf , page6 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 6>
+Package pdftex.def Info: annexe2.pdf , page6 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [54 <./annexe2.pdf>]
+<annexe2.pdf, id=850, page=7, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 7>
+Package pdftex.def Info: annexe2.pdf , page7 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 7>
+Package pdftex.def Info: annexe2.pdf , page7 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 7>
+Package pdftex.def Info: annexe2.pdf , page7 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [55 <./annexe2.pdf>]
+<annexe2.pdf, id=861, page=8, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 8>
+Package pdftex.def Info: annexe2.pdf , page8 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 8>
+Package pdftex.def Info: annexe2.pdf , page8 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 8>
+Package pdftex.def Info: annexe2.pdf , page8 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [56 <./annexe2.pdf>]
+<annexe2.pdf, id=868, page=9, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 9>
+Package pdftex.def Info: annexe2.pdf , page9 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 9>
+Package pdftex.def Info: annexe2.pdf , page9 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 9>
+Package pdftex.def Info: annexe2.pdf , page9 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [57 <./annexe2.pdf>]
+<annexe2.pdf, id=879, page=10, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 10>
+Package pdftex.def Info: annexe2.pdf , page10 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 10>
+Package pdftex.def Info: annexe2.pdf , page10 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 10>
+Package pdftex.def Info: annexe2.pdf , page10 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [58 <./annexe2.pdf>]
+<annexe2.pdf, id=884, page=11, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 11>
+Package pdftex.def Info: annexe2.pdf , page11 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 11>
+Package pdftex.def Info: annexe2.pdf , page11 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 11>
+Package pdftex.def Info: annexe2.pdf , page11 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [59 <./annexe2.pdf>]
+<annexe2.pdf, id=890, page=12, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 12>
+Package pdftex.def Info: annexe2.pdf , page12 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 12>
+Package pdftex.def Info: annexe2.pdf , page12 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 12>
+Package pdftex.def Info: annexe2.pdf , page12 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+
+[60 <./annexe2.pdf>]
+<annexe2.pdf, id=895, page=13, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 13>
+Package pdftex.def Info: annexe2.pdf , page13 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 13>
+Package pdftex.def Info: annexe2.pdf , page13 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 13>
+Package pdftex.def Info: annexe2.pdf , page13 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [61 <./annexe2.pdf>]
+<annexe2.pdf, id=904, page=14, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 14>
+Package pdftex.def Info: annexe2.pdf , page14 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 14>
+Package pdftex.def Info: annexe2.pdf , page14 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 14>
+Package pdftex.def Info: annexe2.pdf , page14 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [62 <./annexe2.pdf>]
+<annexe2.pdf, id=911, page=15, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 15>
+Package pdftex.def Info: annexe2.pdf , page15 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 15>
+Package pdftex.def Info: annexe2.pdf , page15 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 15>
+Package pdftex.def Info: annexe2.pdf , page15 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [63 <./annexe2.pdf>]
+<annexe2.pdf, id=916, page=16, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 16>
+Package pdftex.def Info: annexe2.pdf , page16 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 16>
+Package pdftex.def Info: annexe2.pdf , page16 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 16>
+Package pdftex.def Info: annexe2.pdf , page16 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [64 <./annexe2.pdf>]
+<annexe2.pdf, id=921, page=17, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 17>
+Package pdftex.def Info: annexe2.pdf , page17 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 17>
+Package pdftex.def Info: annexe2.pdf , page17 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 17>
+Package pdftex.def Info: annexe2.pdf , page17 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [65 <./annexe2.pdf>]
+<annexe2.pdf, id=927, page=18, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 18>
+Package pdftex.def Info: annexe2.pdf , page18 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 18>
+Package pdftex.def Info: annexe2.pdf , page18 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 18>
+Package pdftex.def Info: annexe2.pdf , page18 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [66 <./annexe2.pdf>]
+<annexe2.pdf, id=932, page=19, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 19>
+Package pdftex.def Info: annexe2.pdf , page19 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 19>
+Package pdftex.def Info: annexe2.pdf , page19 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 19>
+Package pdftex.def Info: annexe2.pdf , page19 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [67 <./annexe2.pdf>]
+<annexe2.pdf, id=937, page=20, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 20>
+Package pdftex.def Info: annexe2.pdf , page20 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 20>
+Package pdftex.def Info: annexe2.pdf , page20 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 20>
+Package pdftex.def Info: annexe2.pdf , page20 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [68 <./annexe2.pdf>]
+<annexe2.pdf, id=942, page=21, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 21>
+Package pdftex.def Info: annexe2.pdf , page21 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 21>
+Package pdftex.def Info: annexe2.pdf , page21 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 21>
+Package pdftex.def Info: annexe2.pdf , page21 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [69 <./annexe2.pdf>]
+<annexe2.pdf, id=947, page=22, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 22>
+Package pdftex.def Info: annexe2.pdf , page22 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 22>
+Package pdftex.def Info: annexe2.pdf , page22 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 22>
+Package pdftex.def Info: annexe2.pdf , page22 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [70 <./annexe2.pdf>]
+<annexe2.pdf, id=954, page=23, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 23>
+Package pdftex.def Info: annexe2.pdf , page23 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 23>
+Package pdftex.def Info: annexe2.pdf , page23 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 23>
+Package pdftex.def Info: annexe2.pdf , page23 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+
+[71 <./annexe2.pdf>]
+<annexe2.pdf, id=964, page=24, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 24>
+Package pdftex.def Info: annexe2.pdf , page24 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 24>
+Package pdftex.def Info: annexe2.pdf , page24 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 24>
+Package pdftex.def Info: annexe2.pdf , page24 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [72 <./annexe2.pdf>]
+<annexe2.pdf, id=973, page=25, 614.295pt x 794.97pt>
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 25>
+Package pdftex.def Info: annexe2.pdf , page25 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 25>
+Package pdftex.def Info: annexe2.pdf , page25 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe2.pdf Graphic file (type pdf)
+<use annexe2.pdf, page 25>
+Package pdftex.def Info: annexe2.pdf , page25 used (voir le source, ligne 5).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [73 <./annexe2.pdf>])
+(Appendices/AppendixC.tex
+<annexe3.pdf, id=978, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf>
+Package pdftex.def Info: annexe3.pdf  used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf>
+Package pdftex.def Info: annexe3.pdf  used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<annexe3.pdf, id=981, page=1, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 1>
+Package pdftex.def Info: annexe3.pdf , page1 used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 453.60808pt x 587.03131pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 1>
+Package pdftex.def Info: annexe3.pdf , page1 used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 1>
+Package pdftex.def Info: annexe3.pdf , page1 used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 1>
+Package pdftex.def Info: annexe3.pdf , page1 used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+
+Annexe C.
+------------------------------------------------------------------------------
+ C Word2vect
+------------------------------------------------------------------------------
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 1>
+Package pdftex.def Info: annexe3.pdf , page1 used (voir le source, ligne 7).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+[74
+
+ <./annexe3.pdf>]
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf>
+Package pdftex.def Info: annexe3.pdf  used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf>
+Package pdftex.def Info: annexe3.pdf  used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<annexe3.pdf, id=994, page=2, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 2>
+Package pdftex.def Info: annexe3.pdf , page2 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 453.60808pt x 587.03131pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 2>
+Package pdftex.def Info: annexe3.pdf , page2 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 2>
+Package pdftex.def Info: annexe3.pdf , page2 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 2>
+Package pdftex.def Info: annexe3.pdf , page2 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 2>
+Package pdftex.def Info: annexe3.pdf , page2 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [75 <./annexe3.pdf>]
+<annexe3.pdf, id=1022, page=3, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 3>
+Package pdftex.def Info: annexe3.pdf , page3 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 3>
+Package pdftex.def Info: annexe3.pdf , page3 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 3>
+Package pdftex.def Info: annexe3.pdf , page3 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [76 <./annexe3.pdf>]
+<annexe3.pdf, id=1033, page=4, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 4>
+Package pdftex.def Info: annexe3.pdf , page4 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 4>
+Package pdftex.def Info: annexe3.pdf , page4 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 4>
+Package pdftex.def Info: annexe3.pdf , page4 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [77 <./annexe3.pdf>]
+<annexe3.pdf, id=1043, page=5, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 5>
+Package pdftex.def Info: annexe3.pdf , page5 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 5>
+Package pdftex.def Info: annexe3.pdf , page5 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 5>
+Package pdftex.def Info: annexe3.pdf , page5 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [78 <./annexe3.pdf>]
+<annexe3.pdf, id=1058, page=6, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 6>
+Package pdftex.def Info: annexe3.pdf , page6 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 6>
+Package pdftex.def Info: annexe3.pdf , page6 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 6>
+Package pdftex.def Info: annexe3.pdf , page6 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [79 <./annexe3.pdf>]
+<annexe3.pdf, id=1063, page=7, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 7>
+Package pdftex.def Info: annexe3.pdf , page7 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 7>
+Package pdftex.def Info: annexe3.pdf , page7 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 7>
+Package pdftex.def Info: annexe3.pdf , page7 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [80 <./annexe3.pdf>]
+<annexe3.pdf, id=1068, page=8, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 8>
+Package pdftex.def Info: annexe3.pdf , page8 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 8>
+Package pdftex.def Info: annexe3.pdf , page8 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 8>
+Package pdftex.def Info: annexe3.pdf , page8 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [81 <./annexe3.pdf>]
+<annexe3.pdf, id=1073, page=9, 614.295pt x 794.97pt>
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 9>
+Package pdftex.def Info: annexe3.pdf , page9 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 9>
+Package pdftex.def Info: annexe3.pdf , page9 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+File: annexe3.pdf Graphic file (type pdf)
+<use annexe3.pdf, page 9>
+Package pdftex.def Info: annexe3.pdf , page9 used (voir le source, ligne 8).
+(pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
+ [82 <./annexe3.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' (voir le source, ligne
- 341).
-Package atveryend Info: Empty hook `AfterLastShipout' (voir le source, ligne 34
-1).
+ 356).
+Package atveryend Info: Empty hook `AfterLastShipout' (voir le source, ligne 35
+6).
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' (voir le source, lig
-ne 341).
+ne 356).
 Package atveryend Info: Executing hook `AtEndAfterFileList' (voir le source, li
-gne 341).
+gne 356).
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B97E94D4F6976B6C1842FFEAF57F36FE;11706.
+(rerunfilecheck)             Checksum: 514A3BEBD10CC9B1231D7E61D3CA0209;11961.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' (voir le source, ligne 341).
+Package atveryend Info: Empty hook `AtVeryVeryEnd' (voir le source, ligne 356).
 
  ) 
 Here is how much of TeX's memory you used:
- 37502 strings out of 493305
- 690249 string characters out of 3128932
- 730157 words of memory out of 3000000
- 40349 multiletter control sequences out of 15000+200000
+ 38362 strings out of 493305
+ 705755 string characters out of 3128932
+ 743412 words of memory out of 3000000
+ 41131 multiletter control sequences out of 15000+200000
  543805 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,77p,1118b,845s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,18n,77p,1118b,959s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Souhail/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Souh
-ail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+ail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Souhail/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Souhail/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/U
-sers/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/latx
-font/lasy10.pfb>
-Output written on main.pdf (50 pages, 1847390 bytes).
+s/cm/cmmi10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi12.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Souhail/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Souhail/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
+ers/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Souhail/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Souhail/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Sou
+hail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Souhail/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Souhail/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/S
+ouhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Souhail/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Souhail/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
+Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti8.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/latxfont/lasy10.pfb><C:/Users/Souhail/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Souhail/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Souhail/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Souh
+ail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Use
+rs/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
+C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on main.pdf (90 pages, 2485039 bytes).
 PDF statistics:
- 681 PDF objects out of 1000 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
- 566 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1176 PDF objects out of 1200 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 865 words of extra memory for PDF output out of 10000 (max. 10000000)
 

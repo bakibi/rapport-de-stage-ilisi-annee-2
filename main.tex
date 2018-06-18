@@ -13,6 +13,7 @@
 \usepackage{lscape}
 %\usepackage{draftwatermark}
 \usepackage{adjustbox}
+\usepackage{pdfpages}
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage{french}
@@ -168,7 +169,7 @@
 \chapter*{REMERCIEMENTS}
 
 
-Je tiens à remercier les personnes qui ont développé lors de mon étape au sein de l'équipe du SANADTECH et notamment les trois personnes qui ont accompagné accompagné, structuré et aidé pendent ses six mois:\\[0.5cm]
+Je tiens à remercier les personnes qui m'ont aidé lors de mon stage au sein de l'équipe du SANADTECH et notamment les trois personnes qui m'ont accompagné, structuré et aidé pendent ses six mois:\\[0.5cm]
 Mon encadrant en entreprise, M. ABDELHAKIM RHANIZAR, Fondateur et directeur technique de l'entreprise qui m'a accompagné tout au long de ce stage, en me faisant découvrir toutes les technologies que j'ai pu maitriser au cours des semaines . \\
 Mon encadrant à la faculté des sciences et techniques de Mohammedia, Mme KHADIJA DOUZI, qui a travers ses nombreuses conseils, et grâce aussi à sa confiance j'ai pu m'accomplir totalement dans mes missions.\\
 M. CHATRIA Zakaria, le second développeur avec lequel j'étais en contact direct, qui m'a aidé dans mes tâches et qui m'a fait sortir de nombreuses situations délicates en m'aidant à résoudre les problèmes rencontrés.\\[0.2cm]
@@ -312,9 +313,6 @@ Keywords: mobile application, machine learning, Agile , Scrum methodology.
 %\input{Chapters/Chapter6} 
 %\input{Chapters/Chapter7} 
 
-%----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
-%----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -336,6 +334,23 @@ Keywords: mobile application, machine learning, Agile , Scrum methodology.
 \textbf{Getting Started with TensorFlow}\\https://www.tensorflow.org/versions/r1.1/getstarted/getstarted\\
 
 \textbf{machine learning with tensorflow}\\https://www.amazon.com/Machine-Learning-TensorFlow-Nishant-Shukla/dp/1617293873\\
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+\input{Appendices/AppendixB}
+\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
 
 
 \end{document}

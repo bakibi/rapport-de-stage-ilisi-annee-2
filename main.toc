@@ -54,3 +54,7 @@
 \contentsline {subsection}{\numberline {6.2.2}Utilisation}{39}{subsection.89}
 \contentsline {chapter}{Conclusion \& Perspective}{41}{chapter*.93}
 \contentsline {chapter}{webographie}{42}{chapter*.94}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}CNN}{43}{appendix.95}
+\contentsline {chapter}{\numberline {B}SVM}{49}{appendix.96}
+\contentsline {chapter}{\numberline {C}Word2vect}{74}{appendix.97}
