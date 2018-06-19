@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  18 JUN 2018 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  19 JUN 2018 16:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -2239,7 +2239,7 @@ logo.png>] [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
 
  []
 
@@ -2619,7 +2619,7 @@ Package pdftex.def Info: Images/w2vcnnaccury.png  used (voir le source, ligne 4
 (pdftex.def)             Requested size: 453.60808pt x 214.99648pt.
 ) (Chapters/Conclusion.tex [40 <./Images/w2vcnnloss.png> <./Images/w2vcnnaccury
 .png>])
-Overfull \hbox (8.45328pt too wide) in paragraph at lines 3--315
+Overfull \hbox (8.45328pt too wide) in paragraph at lines 3--317
 []\OT1/cmr/m/n/10.95 Pour conclure, j'ai ef-fectue mon stage de deuxieme ann
 ee de cycle d'ingenierie lo-gi-ciel et integration
  []
@@ -2627,19 +2627,14 @@ ee de cycle d'ingenierie lo-gi-ciel et integration
 [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-Overfull \hbox (15.6913pt too wide) in paragraph at lines 326--327
-\OT1/cmr/m/n/10.95 http://users.isr.ist.utl.pt/ wurmd/ Livros/school/Bishop%20-
-%20Pattern%20Recognition %20And
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
+ []
+
+
+Overfull \hbox (15.6913pt too wide) in paragraph at lines 328--329
+\OT1/cmr/m/n/10.95 http://users.isr.ist.utl.pt/ wurmd/ Livros/school/Bishop%20-
+%20Pattern%20Recognition %20And
  []
 
 
@@ -2664,6 +2659,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
@@ -3355,27 +3355,27 @@ Package pdftex.def Info: annexe3.pdf , page9 used (voir le source, ligne 8).
 (pdftex.def)             Requested size: 811.1156pt x 1049.67905pt.
  [82 <./annexe3.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' (voir le source, ligne
- 356).
+ 358).
 Package atveryend Info: Empty hook `AfterLastShipout' (voir le source, ligne 35
-6).
+8).
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' (voir le source, lig
-ne 356).
+ne 358).
 Package atveryend Info: Executing hook `AtEndAfterFileList' (voir le source, li
-gne 356).
+gne 358).
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 514A3BEBD10CC9B1231D7E61D3CA0209;11961.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' (voir le source, ligne 356).
+Package atveryend Info: Empty hook `AtVeryVeryEnd' (voir le source, ligne 358).
 
  ) 
 Here is how much of TeX's memory you used:
  38362 strings out of 493305
  705755 string characters out of 3128932
- 743412 words of memory out of 3000000
+ 744412 words of memory out of 3000000
  41131 multiletter control sequences out of 15000+200000
  543805 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3422,7 +3422,7 @@ ail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Use
 rs/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
 C:/Users/Souhail/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on main.pdf (90 pages, 2485039 bytes).
+Output written on main.pdf (90 pages, 2485505 bytes).
 PDF statistics:
  1176 PDF objects out of 1200 (max. 8388607)
  188 named destinations out of 1000 (max. 500000)
